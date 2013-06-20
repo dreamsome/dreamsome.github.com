@@ -4,11 +4,5 @@ title: "About"
 ---
 
 
-
-**dream·some** -  *adjective* -  \drimsəm\
-
-
-1. apt or disposed to dream in an often petty manner
-2. extremely unrealistic 
-
+This is [onesuper](http://chengyichao.info)'s personal blog on art and computer.
 
