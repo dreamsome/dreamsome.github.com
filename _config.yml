@@ -5,6 +5,7 @@ author:
   email: onesuperclark@gmail.com 
 permalink: /:year/:month/:day/:title 
 pygments: true
+paginate: 10
 markdown: rdiscount
 rdiscount:
   extensions: [strict]

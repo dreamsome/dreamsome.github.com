@@ -5,7 +5,7 @@ title: "About"
 
 
 
-dream·some  *adjective*  \drimsəm\
+**dream·some** -  *adjective* -  \drimsəm\
 
 
 1. apt or disposed to dream in an often petty manner
