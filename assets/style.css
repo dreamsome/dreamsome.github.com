@@ -80,8 +80,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 #sidebar ul li a:hover {
     color: #EFE;
-    line-height: 28px;
-    background:none;
+    background: none;
 }
 
 
@@ -97,8 +96,8 @@ ul, ol{padding-left: 25px;margin: 20px;}
     padding-left: 15px;
 }
 
-a {color: #579; text-decoration: none;  }
-a:hover { background: #D0DAF7; text-decoration: none;}
+a {color: #F30; text-decoration: underline; }
+a:hover { background: #D0DAF7; text-decoration: underline; color: #333;}
 
 
 p {margin: 15px 0;}
