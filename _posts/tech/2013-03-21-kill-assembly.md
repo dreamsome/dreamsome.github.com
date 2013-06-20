@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 聊聊汇编语言
+title: 聊聊汇编
 category: technium
 tags: []
 ---
