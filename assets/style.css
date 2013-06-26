@@ -33,16 +33,12 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 
 .chaos {
-    -moz-column-width: 330px;
-    -webkit-column-width: 330px;
-    column-width: 330px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .chaos li {
     margin-top: 3px;
-    margin-left: 20px;
     list-style-type: none;
 
 }
@@ -60,18 +56,16 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 
 #sidebar {
-    background: #123;
+    background: #112;
     width: 140px;
-    float: left;
     display: inline;
     padding: 20px;
-    position: fixed;
-    height: 100%;
-    z-index: 0;
-    top: 0;
-    left: 0px;
     color: #BBA;
     font-size: 12px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 
@@ -81,28 +75,55 @@ ul, ol{padding-left: 25px;margin: 20px;}
     margin: 0;
     padding: 0;
 }
+
+#sidebar ul li {
+    color: #EFE;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+
 #sidebar ul li a {
     color: #EFE;
     font-weight: bold;
     line-height: 28px;
 }
+
 #sidebar ul li a:hover {
     color: #EFE;
     background: none;
 }
 
 
+#sidebar h2 {
+    color: #BBA;
+    font-size: 15px;
+    margin: 0;
+}
+
+#sidebar a {
+    color: #EFE;
+    font-weight: bold;
+}
+
+#sidebar a:hover {
+    color: #EFE;
+    background: none;
+}
+
 
 .container {
-    margin-left: 180px;
     background: #fff;
-    padding: 30px;
-
-}
-.content { 
+    padding: 30px 40px;
     max-width: 1000px;
-    padding-left: 15px;
+    margin-left: 180px;
 }
+
+
+.content { 
+    width: 100%;
+}
+
 
 a {color: #F30; text-decoration: underline; }
 a:hover { background: #D0DAF7; text-decoration: underline; color: #333;}
@@ -166,7 +187,9 @@ blockquote {
     text-decoration: none;
 }
 
-
+.postview {
+    margin: 40px 0;
+}
 
 
 .timestamp {
@@ -174,8 +197,6 @@ blockquote {
     float: right;
     position: relative;    
     font-size: 15px;
-//    margin-right: -150px;
-    
 }
 
 .author {
