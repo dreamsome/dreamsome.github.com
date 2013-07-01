@@ -4,5 +4,5 @@ title: "About"
 ---
 
 
-This is [onesuper](http://chengyichao.info)'s personal blog on art and computer.
+This is [onesuper](http://chengyichao.info)'s personal blog on art, culture, and computer.
 
