@@ -8,7 +8,9 @@ body {
     background: #ffffff;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
-    border-bottom: 15px solid #333;
+//    border-bottom: 15px solid #333;
+    border-left: 15px solid #333;
+    border-right: 15px solid #333;
     font-size: 18px;
 }
 
@@ -44,6 +46,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 .chaos .time {
     color: #999;
     float: right;
+
 }
 
 .chaos .title {
@@ -75,7 +78,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 
 .container {
-    max-width: 1000px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -95,11 +98,9 @@ p {
 }
 
 hr {
-    height: 50px;
-    margin-top: 50px;
-    width: 750px;
     border: 0;
-    box-shadow: inset 0 12px 12px -15px rgba(0,0,0,0.5);
+    border-top: 1px dotted #BBB;
+    height: 40px;
 }
 
 
@@ -117,6 +118,9 @@ p img {
     max-width: 800px;
     display: block;
     margin: 40px auto;
+    padding: 2px;
+    background: white;
+    border: 1px solid #999;
 }
 
 
@@ -158,10 +162,12 @@ blockquote {
     color: #777;
     float: right;
     position: relative;    
+    font-size: 16px;
 }
 
 .author {
     color: #AAA;
+    font-size: 16px;
 }
 
 .blogtitle a {
@@ -196,9 +202,9 @@ code {
 
 .pagination {
     text-align: center;
-    border-top: 1px solid #BBB;
-    border-bottom: 1px solid #BBB;
+    border-top: 1px dotted #BBB;
     padding: 5px;
+    font-size: 16px;
 }
 
 .previous, .next {
@@ -211,6 +217,11 @@ code {
 
 .logo {
     text-align: center;
+
+}
+
+.logo img {
+    width: 448px;
 }
 
 .logo a:hover {
@@ -221,4 +232,14 @@ code {
 .cap {
     text-align: center;
     font-weight: bold;
+}
+
+.meta {
+    text-align: right;
+    font-size: 16px;
+}
+
+#disqus_thread {
+    width: 90%;
+    margin: 0 auto;
 }
