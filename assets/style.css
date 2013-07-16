@@ -8,7 +8,6 @@ body {
     background: #ffffff;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
-//    border-bottom: 15px solid #333;
     border-left: 15px solid #333;
     border-right: 15px solid #333;
     font-size: 18px;
@@ -21,8 +20,8 @@ h1,h2,h3,h4 {
 
 h3 {
     font-size: 22px; 
-    color: #222;
-    margin: 20px 0;
+    color: #000;
+    margin: 40px 0 20px 0;
     background: #DAE2F7;
     text-align: center;    
 }
@@ -106,21 +105,22 @@ hr {
 
 pre {
     font-family: Menlo,Monaco,monospace;
-    font-size: 13px;
+    font-size: 15px;
     border: 0px;
     padding: 7px;
     color: #333;
-    background: whiteSmoke;
+    background: #FCFCFC;
     word-wrap: break-word;
+    border: 2px solid #C6C9CB;
+    border-left: none;
+    border-right: none;
+    line-height: 1.5;
 }
 
 p img {
     max-width: 800px;
     display: block;
     margin: 40px auto;
-    padding: 2px;
-    background: white;
-    border: 1px solid #999;
 }
 
 
@@ -183,10 +183,16 @@ blockquote {
 code {
     margin:0px;
     padding:0px;
-    color: #333;
-    background: whiteSmoke;
+
 }
 
+p code {
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 3px;
+    background: #fcfcfc;
+    color: #09738D;
+}
 
 .sidenote {
     display: block;
@@ -242,4 +248,11 @@ code {
 #disqus_thread {
     width: 90%;
     margin: 0 auto;
+}
+
+sup {
+
+    color: #666;
+    font-size: 14px;
+
 }
