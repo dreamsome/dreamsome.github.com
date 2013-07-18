@@ -13,7 +13,7 @@ title: Dreamsome
   </div>
   <div class="author">by onesuper</div>
   {{ post.content | split:'<!--more-->'| first }}
-  <div class="meta"><a href="{{ post.url }}">Continue Reading</a> | <a href="{{ post.url }}#disqus_thread">Comment</a></div>
+  <div class="meta"><a href="{{ post.url }}">Continue Reading</a> | <a href="{{ site.production_url }}{{ post.url }}#disqus_thread">Comment</a></div>
 </div>
 <br><br>
 {% endfor %}
