@@ -157,8 +157,8 @@ mem_translate(struct mem_t *mem, md_addr_t addr)
 
 
 
-1. 定义在 `host.h` 文件中
+1. 定义在 `host.h` 文件中。
 1. 页大小为 8KB，定义在 `machine.h` 文件中。
 1. [Data alignment: Straighten up and fly right](http://www.ibm.com/developerworks/library/pa-dalign/)
-1. 一个形象的比喻就是[银行](http://blog.chengyichao.info/2010/11/17/memory-management/)
+1. 一个形象的比喻就是[银行](http://blog.chengyichao.info/2010/11/17/memory-management/)。
 
