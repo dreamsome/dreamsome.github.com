@@ -1,6 +1,8 @@
 * {margin:0px; padding:0px;}
 
-
+html {
+    height: 100%;
+}
 
 body {
     color: #444;
@@ -8,8 +10,6 @@ body {
     background: #ffffff;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
-    border-left: 15px solid #333;
-    border-right: 15px solid #333;
     font-size: 18px;
 }
 
@@ -53,23 +53,26 @@ ul, ol{padding-left: 25px;margin: 20px;}
     text-decoration:none;
 }
 
-.info {
-    padding: 15px;
+.sidebar {
+    padding: 20px;
     color: white;
     background: #333;
-    text-align:center;
-    margin: 0px auto;
     font-size: 15px;
+    width: 150px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
 }
 
 
-.info a{
+.sidebar a{
     font-weight: bold;
     color: skyBlue;
     text-decoration:none;
 }
 
-.info a:hover {
+.sidebar a:hover {
     background: none;
     color: skyBlue;
     text-decoration:none;
@@ -198,8 +201,8 @@ p code {
 .sidenote {
     display: block;
     font-size: 15px;
-    margin-right: -250px;
-    width: 250px;
+    margin-right: -200px;
+    width: 200px;
     left: 20px;
     float: right;
     padding: 5px;
