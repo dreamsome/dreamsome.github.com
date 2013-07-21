@@ -1,8 +1,5 @@
 * {margin:0px; padding:0px;}
 
-html {
-    height: 100%;
-}
 
 body {
     color: #444;
@@ -54,7 +51,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .sidebar {
-    padding: 20px;
+    padding: 20px 10px;
     color: white;
     background: #333;
     font-size: 15px;
@@ -78,6 +75,14 @@ ul, ol{padding-left: 25px;margin: 20px;}
     text-decoration:none;
 }
 
+.right-border {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15px;
+    background: #333;
+    height: 100%;
+}
 
 .container {
     width: 50%;
