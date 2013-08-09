@@ -11,9 +11,9 @@ title: Dreamsome
     <span class="timestamp">{{ post.date | date_to_string }}</span>   
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   </div>
-  <div class="author">by onesuper</div>
+  <div class="author">by <a href="http://chengyichao.info/">cyc</a> in <a href="/{{post.categories[0]}}/">{{ post.categories }}</a></div>
   {{ post.content | split:'<!--more-->'| first }}
-  <div class="meta"><a href="{{ post.url }}">Continue Reading</a> </div>
+  <div class="meta"><a href="{{ post.url }}">~ ~ ~</a> </div>
 </div>
 <br><br>
 {% endfor %}

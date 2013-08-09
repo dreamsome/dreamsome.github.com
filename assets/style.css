@@ -118,7 +118,7 @@ pre {
     border: 0px;
     padding: 7px;
     color: #333;
-    background: #FCFCFC;
+    background: #EEE;
     word-wrap: break-word;
     border: 2px solid #C6C9CB;
     border-left: none;
@@ -127,7 +127,7 @@ pre {
 }
 
 p img {
-    max-width: 800px;
+    max-width: 90%;
     display: block;
     margin: 40px auto;
 }
@@ -139,7 +139,7 @@ blockquote {
 }
 
 .pagetitle h1 {
-    color: #111;
+    color: #800;
     font-weight: normal;
     font-size: 24px;
     line-height: 26px;
@@ -159,7 +159,7 @@ blockquote {
 }
 
 .entry-title h2 a {
-    color: #222;
+    color: #800;
     text-decoration: none;
 }
 
@@ -168,15 +168,24 @@ blockquote {
 
 
 .timestamp {
-    color: #777;
+    color: white;
     float: right;
     position: relative;    
     font-size: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background: #B6B6AD;
 }
 
 .author {
     color: #AAA;
     font-size: 16px;
+}
+
+.author a {
+    color: #565656;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .blogtitle a {
@@ -250,18 +259,25 @@ p code {
 }
 
 .meta {
-    text-align: right;
+    text-align: center;
     font-size: 16px;
 }
 
+.meta a {
+    color: #565656;
+    font-weight: bold;
+    text-decoration: none;
+}
 #disqus_thread {
     width: 90%;
     margin: 0 auto;
 }
 
-sup {
+.note {
     margin: 2px;
     color: #666;
     font-size: 14px;
     font-family: serif;
+    vertical-align: super;
 }
+

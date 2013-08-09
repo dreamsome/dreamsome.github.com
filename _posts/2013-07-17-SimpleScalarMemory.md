@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SimpleScalar透视：内存管理"
+category: chip
 ---
 
 
@@ -19,10 +20,10 @@ title: "SimpleScalar透视：内存管理"
 
 ### 物理页
 
-因为 SimpleScalar 是一个软件模拟器，因此所谓的物理页其实就是主机中的一段内存空间，而物理页号就是一个 char 指针<sup>[1]</sup>。
+因为 SimpleScalar 是一个软件模拟器，因此所谓的物理页其实就是主机中的一段内存空间，而物理页号就是一个 char 指针<span class="note">[1]</span>。
 
 
-每次调用 `mem_newpage()`<sup>memory.c: 110</sup>创建新的页面，SimpleScalar 都会在堆上创建一个大小为 `MD_PAGE_SIZE`<sup>[2]</sup>的页面，然后新建一个页表项，插入到页表中，并将 `page_count` 加一。
+每次调用 `mem_newpage()`<span class="note">memory.c: 110</span>创建新的页面，SimpleScalar 都会在堆上创建一个大小为 `MD_PAGE_SIZE`<span class="note">[2]</span>的页面，然后新建一个页表项，插入到页表中，并将 `page_count` 加一。
 
 
 ### 内存对象
@@ -119,10 +120,10 @@ mem_translate(struct mem_t *mem, md_addr_t addr)
 ### 内存访问器
 
 
-内存访问的核心是 `mem_access()`<sup>memory.c:140</sup> 函数，它负责在主机内存和虚拟内存之间拷贝数据。`mem_access()` 可以访问从起始地址 `addr` 开始连续 `nbytes` 的字节，`nbytes`必须为 2 的指数倍 ，而且不能超过页大小，否则会报错，同时 `addr` 必须也为 2 的指数倍。<sup>[3]</sup>
+内存访问的核心是 `mem_access()`<span class="note">memory.c:140</span> 函数，它负责在主机内存和虚拟内存之间拷贝数据。`mem_access()` 可以访问从起始地址 `addr` 开始连续 `nbytes` 的字节，`nbytes`必须为 2 的指数倍 ，而且不能超过页大小，否则会报错，同时 `addr` 必须也为 2 的指数倍。<span class="note">[3]</span>
 
 
-事实上是，`mem_access()` 是一个访问器，通过它可以构造出更复杂的内存访问函数（通过函数指针），用它构造的函数有：
+`mem_access()` 其实是一个访问器，通过它可以构造出更复杂的内存访问函数（通过函数指针），用它构造的函数有：
 
 
 1. `mem_strcpy()`: 将主机端某个字符串拷贝至 SimpleScalar 模拟的内存空间
@@ -136,7 +137,7 @@ mem_translate(struct mem_t *mem, md_addr_t addr)
 ### 内存为什么要分页？
 
 
-程序在运行时需要使用内存资源，当系统中存在多个进程时，操作系统就需要协调好内存的分配。一种分配方式是**连续分配**，即每次把内存中一段连续的空间分配给某个进程，但是随着进程进进出出，内存中可能会出现无法利用的碎片<sup>[4]</sup>。分页（paging）机制以**页**为最小单位分配内存，一个进程分到的页在内存中可以不连续，它提高了内存分配的灵活性，但多出了一个将虚拟地址翻译（translate）为物理地址的步骤。
+程序在运行时需要使用内存资源，当系统中存在多个进程时，操作系统就需要协调好内存的分配。一种分配方式是**连续分配**，即每次把内存中一段连续的空间分配给某个进程，但是随着进程进进出出，内存中可能会出现无法利用的碎片<span class="note">[4]</span>。分页（paging）机制以**页**为最小单位分配内存，一个进程分到的页在内存中可以不连续，它提高了内存分配的灵活性，但多出了一个将虚拟地址翻译（translate）为物理地址的步骤。
 
 
 ### 什么是反向页表？

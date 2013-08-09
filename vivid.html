@@ -1,0 +1,18 @@
+---
+layout: page
+title: vivid
+---
+
+
+<ul class="chaos">
+{% for post in site.categories.vivid %}
+
+  
+<li>
+  <a class="title" href="{{post.url}}">{{ post.title }}</a>
+  <span class="time">{{ post.date | date: "%y-%m-%d" }}</span>
+</li>
+
+
+{% endfor %}
+<ul>

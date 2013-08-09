@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "跑步有害论"
+category: vivid
 ---
 
 
