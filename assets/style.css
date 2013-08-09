@@ -17,9 +17,9 @@ h1,h2,h3,h4 {
 
 h3 {
     font-size: 22px; 
-    color: #000;
+    color: white;
     margin: 40px 0 20px 0;
-    background: #DAE2F7;
+    background:#B6B6AD;
     text-align: center;    
 }
 
@@ -42,7 +42,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 .chaos .time {
     color: #999;
     float: right;
-
+    
 }
 
 .chaos .title {
@@ -96,8 +96,8 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 
-a {color: #F30; text-decoration: underline; }
-a:hover { background: #E9F5E7; text-decoration: underline; color: #333;}
+a {color: #B6B6AD; text-decoration: underline; }
+a:hover { background: #F7F7EC;text-decoration: underline; }
 
 
 p {
@@ -143,8 +143,8 @@ blockquote {
     font-weight: normal;
     font-size: 24px;
     line-height: 26px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #BBB;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #B6B6AD;
     margin: 0;
 }
 
@@ -155,7 +155,7 @@ blockquote {
     line-height: 24px;
     margin: 0;
     padding-bottom: 3px;
-    border-bottom: 1px solid #BBB;
+    border-bottom: 1px solid #B6B6AD; 
 }
 
 .entry-title h2 a {
@@ -175,6 +175,7 @@ blockquote {
     padding-left: 4px;
     padding-right: 4px;
     background: #B6B6AD;
+    font-weight: bold;
 }
 
 .author {
