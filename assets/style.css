@@ -70,8 +70,16 @@ ul, ol{padding-left: 25px;margin: 20px;}
 .sidebar a:hover {
     background: none;
     text-decoration:underline;
+    color: rgb(119, 72, 68);;
 }
 
+.sidebar h2 {
+    color: #999;
+    margin-top: -2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 #site-title {
     font-size: 50px;
