@@ -16,11 +16,11 @@ h1,h2,h3,h4 {
 }
 
 h3 {
-    font-size: 22px; 
+    font-size: 20px; 
     color: white;
     margin: 40px 0 20px 0;
     background:#B6B6AD;
-    text-align: center;    
+    padding-left: 10px;   
 }
 
 h4 {font-size: 20px; color: #333;}
@@ -84,10 +84,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
     text-decoration:none;
 }
 
-#site-tile:hover {
-    text-decoration:none;
-    color: rgb(219, 72, 46);
-}
+
 
 .right-border {
     position: fixed;
@@ -153,7 +150,7 @@ blockquote {
 }
 
 .pagetitle h1 {
-    color: #800;
+    color: rgb(219, 72, 46);
     font-weight: normal;
     font-size: 22px;
     line-height: 22px;
@@ -172,6 +169,13 @@ blockquote {
     color: rgb(219, 72, 46);
     text-decoration: none;
 }
+
+.entry-title h2 a:hover {
+    color: rgb(219, 72, 46);
+    background: none;
+}
+
+
 
 .postview {
 }
