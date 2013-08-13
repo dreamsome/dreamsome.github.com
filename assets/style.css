@@ -108,7 +108,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 
 a {color: #B6B6AD; text-decoration: underline; }
-a:hover { background: #F7F7EC;text-decoration: underline; }
+a:hover { color: red;text-decoration: underline; }
 
 
 p {
@@ -171,7 +171,7 @@ blockquote {
 }
 
 .entry-title h2 a:hover {
-    color: rgb(219, 72, 46);
+    color: rgb(163, 92, 80);
     background: none;
 }
 
@@ -237,7 +237,7 @@ p code {
 
 .sidenote {
     display: block;
-    font-size: 15px;
+    font-size: small;
     margin-right: -200px;
     width: 200px;
     left: 20px;
