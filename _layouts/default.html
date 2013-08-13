@@ -16,12 +16,22 @@
 
     <div class="sidebar">
 
-      <a id="site-title" href="/">Dreamsome</a><br><br><br><br>
+      <a id="site-title" href="/">Dreamsome</a>
+      
+      <hr>
 
       <a href="http://feeds.feedburner.com/Dreamsome">Subscribe</a><br>
       <a href="/about">About</a><br>
       <a href="/archive">Archive</a><br>
 
+      <hr>
+      <h2 class="sidebar-title">CATEGORIES</h2>
+      
+      {% for category in site.categories %}
+      <a href="/categories/{{ category | first }}/" title="view all posts">
+      {{ category | first }} {{ category | last | size }}</a>
+      <br>
+      {% endfor %}
     </div>
 
 
