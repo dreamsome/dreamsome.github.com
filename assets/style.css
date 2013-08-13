@@ -52,8 +52,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 .sidebar {
     padding: 30px;
-    color: white;
-    background: #100;
+    color: white;co
     font-size: 15px;
     width: 180px;
     height: 100%;
@@ -81,12 +80,14 @@ ul, ol{padding-left: 25px;margin: 20px;}
     word-wrap: break-word;
     font-weight: normal;
     line-height: 1;
-    color: rgb(191, 152, 145);
+    color: rgb(245, 66, 34);
+    
     text-decoration:none;
 }
 
 #site-tile:hover {
     text-decoration:none;
+    color: rgb(219, 72, 46);
 }
 
 .right-border {
@@ -94,12 +95,13 @@ ul, ol{padding-left: 25px;margin: 20px;}
     right: 0;
     top: 0;
     width: 15px;
-    background: #100;
+    background: #EEE;
     height: 100%;
 }
 
 .container {
-    margin: 0 100px 0 300px;
+    margin: 0 auto;
+    width: 800px;
 }
 
 
