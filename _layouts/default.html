@@ -28,7 +28,7 @@
       <h2 class="sidebar-title">CATEGORIES</h2>
       
       {% for category in site.categories %}
-      <a href="/{{ category | first }}/" title="view all posts">
+      <a href="/{{ category | first }}" title="view all posts">
       {{ category | first }} ({{ category | last | size }})</a>
       <br>
       {% endfor %}
