@@ -155,10 +155,8 @@ blockquote {
 .pagetitle h1 {
     color: #800;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 26px;
-    padding-bottom: 2px;
-    border-bottom: 1px solid #B6B6AD;
+    font-size: 22px;
+    line-height: 22px;
     margin: 0;
 }
 
@@ -168,8 +166,6 @@ blockquote {
     font-size: 22px;
     line-height: 22px;
     margin: 0;
-    padding-bottom: 3px;
-    border-bottom: 1px solid #B6B6AD; 
 }
 
 .entry-title h2 a {
@@ -186,16 +182,13 @@ color: white;
 float: left;
 position: relative;
 font-size: 16px;
-padding-left: 4px;
-padding-right: 4px;
 background: #B6B6AD;
 font-weight: bold;
-margin: 5px;
-vertical-align: baseline;
+margin-right: 10px;
 width: 70px;
 line-height: 1;
 text-align: center;
-padding: 5px;
+padding: 6px;
 }
 
 .author {
@@ -208,7 +201,7 @@ padding: 5px;
     text-decoration: none;
     font-weight: bold;
 }
-.authoer a:hover {
+.author a:hover {
     color: #222;
     background:none;
     border-bottom: dotted 1px #222;
