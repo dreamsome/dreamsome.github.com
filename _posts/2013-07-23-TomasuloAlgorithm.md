@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Tomasulo Algorithm"
-category: chip
+category: arch
 ---
 
 
