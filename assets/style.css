@@ -115,7 +115,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 
-a {color: #B6B6AD; text-decoration: underline; }
+a {color: rgb(173, 173, 143); text-decoration: underline; }
 a:hover { color: red;text-decoration: underline; }
 
 
