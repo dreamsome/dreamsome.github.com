@@ -62,15 +62,6 @@ ul, ol{padding-left: 25px;margin: 20px;}
     position: fixed;
 }
 
-.site-title {
-    font-size: 50px;
-    text-transform: uppercase;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    word-wrap: break-word;
-    font-weight: normal;
-    line-height: 1;
-    color:; rgb(245, 89, 76);
-}
 
 .sidebar a{
     font-weight: bold;
@@ -81,6 +72,22 @@ ul, ol{padding-left: 25px;margin: 20px;}
 .sidebar a:hover {
     background: none;
     text-decoration:underline;
+}
+
+
+.site-title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    word-wrap: break-word;
+    font-weight: normal;
+    line-height: 1;
+    color: rgb(191, 152, 145);
+    text-decoration:none;
+}
+
+.site-tile:hover {
+    text-decoration:none;
 }
 
 .right-border {
