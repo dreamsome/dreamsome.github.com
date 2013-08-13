@@ -52,7 +52,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 .sidebar {
     padding: 30px;
-    color: white;co
+    color: white;
     font-size: 15px;
     width: 180px;
     height: 100%;
@@ -81,7 +81,6 @@ ul, ol{padding-left: 25px;margin: 20px;}
     font-weight: normal;
     line-height: 1;
     color: rgb(245, 66, 34);
-    
     text-decoration:none;
 }
 
@@ -166,15 +165,15 @@ blockquote {
 
 
 .entry-title h2 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 22px;
     margin: 0;
     padding-bottom: 3px;
     border-bottom: 1px solid #B6B6AD; 
 }
 
 .entry-title h2 a {
-    color: #800;
+    color: rgb(219, 72, 46);
     text-decoration: none;
 }
 
@@ -183,14 +182,20 @@ blockquote {
 
 
 .timestamp {
-    color: white;
-    float: right;
-    position: relative;    
-    font-size: 16px;
-    padding-left: 4px;
-    padding-right: 4px;
-    background: #B6B6AD;
-    font-weight: bold;
+color: white;
+float: left;
+position: relative;
+font-size: 16px;
+padding-left: 4px;
+padding-right: 4px;
+background: #B6B6AD;
+font-weight: bold;
+margin: 5px;
+vertical-align: baseline;
+width: 70px;
+line-height: 1;
+text-align: center;
+padding: 5px;
 }
 
 .author {
@@ -202,6 +207,11 @@ blockquote {
     color: #565656;
     text-decoration: none;
     font-weight: bold;
+}
+.authoer a:hover {
+    color: #222;
+    background:none;
+    border-bottom: dotted 1px #222;
 }
 
 .blogtitle a {
@@ -281,8 +291,13 @@ p code {
 
 .meta a {
     color: #565656;
-    font-weight: bold;
     text-decoration: none;
+}
+
+.meta a:hover {
+    color: #222;
+    background:none;
+    border-bottom: dotted 1px #222;
 }
 #disqus_thread {
     width: 90%;
