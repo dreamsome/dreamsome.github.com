@@ -116,7 +116,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 
 a {color: rgb(173, 173, 143); text-decoration: underline; }
-a:hover { color: red;text-decoration: underline; }
+a:hover { color: #9d0b0e;text-decoration: underline; }
 
 
 p {
@@ -168,18 +168,18 @@ blockquote {
 
 
 .entry-title h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 22px;
     margin: 0;
 }
 
 .entry-title h2 a {
-    color: rgb(219, 72, 46);
+    color: #111;
     text-decoration: none;
 }
 
 .entry-title h2 a:hover {
-    color: rgb(163, 92, 80);
+    color: #9d0b0e;
     background: none;
 }
 
