@@ -271,7 +271,10 @@ p code {
 }
 
 .logo img {
-    width: 448px;
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .logo a:hover {
