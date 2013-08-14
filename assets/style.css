@@ -101,8 +101,8 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .container {
-    margin: 0 auto;
-    width: 62.5%;
+    float: left;
+    width: 52.5%;
 }
 
 
