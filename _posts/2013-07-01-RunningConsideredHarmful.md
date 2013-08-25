@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "跑步有害论"
-category: comic
+tags: [comic]
 ---
 
 

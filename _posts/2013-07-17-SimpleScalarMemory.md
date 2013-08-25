@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SimpleScalar透视：内存管理"
-category: arch
+tags: [arch, sys]
 ---
 
 

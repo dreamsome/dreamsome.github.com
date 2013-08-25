@@ -9,7 +9,14 @@ layout: default
   <h1>{{ page.title }}</h1>
   
 </div>
-<div class="author">by <a href="http://chengyichao.info/">cyc</a> in <a href="/{{page.categories[0]}}">{{ page.categories }}</a></div>
+
+
+  <div class="tags"> in 
+    {% for tag in page.tags %}
+    <a href="/{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+  </div>
+
 {{ content }}
 
 

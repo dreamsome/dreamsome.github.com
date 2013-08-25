@@ -17,13 +17,10 @@ h1,h2,h3,h4 {
 
 h3 {
     font-size: 20px; 
-    color: white;
-    margin: 40px 0 20px 0;
-    background:#B6B6AD;
-    padding-left: 10px;   
+    color: #CA5656;
 }
 
-h4 {font-size: 20px; color: #333;}
+h4 {font-size: 17px; color: #333;}
 
 ul, ol{padding-left: 25px;margin: 20px;}
 
@@ -155,7 +152,7 @@ blockquote {
 }
 
 .pagetitle h1 {
-    color: rgb(219, 72, 46);
+    color: #111;
     font-weight: normal;
     font-size: 22px;
     line-height: 22px;
@@ -199,20 +196,21 @@ text-align: center;
 padding: 6px;
 }
 
-.author {
+.tags {
     color: #AAA;
-    font-size: 16px;
+    font-size: 15px;
 }
 
-.author a {
-    color: #565656;
+.tags a {
+    padding: 0px 2px;
+    margin: 2px;
+    background: #EEE;
+    color: #C23838;
+    border-radius: 3px;
     text-decoration: none;
-    font-weight: bold;
 }
-.author a:hover {
-    color: #222;
-    background:none;
-    border-bottom: dotted 1px #222;
+.tags a:hover {
+
 }
 
 .blogtitle a {
@@ -275,10 +273,11 @@ p code {
     position: fixed;
     bottom: 0;
     right: 0;
+    opacity: 0.4;
 }
 
-.logo a:hover {
-    background: none;
+.logo img:hover {
+    opacity: 0.9;
 }
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "思维的框架"
-category: insight
+tags: [zen]
 ---
 
 

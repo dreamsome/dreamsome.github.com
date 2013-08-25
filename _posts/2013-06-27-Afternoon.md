@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "下午"
-category: comic
+tags: [comic]
 ---
 
 
