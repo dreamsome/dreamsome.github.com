@@ -13,20 +13,36 @@
 
   <body>    
 
+    <div class="main">
+
+
+
+    <div class="logo">
+      <a href="/"><img src="/images/logo.png" border="0" /></a>
+    </div>
+
+
+    <div class="container">
+
+      <div class="content">
+        {{ content }}
+      </div>      
+    </div>
 
     <div class="sidebar">
-
-      <a id="site-title" href="/">Dreamsome</a>
       
-      <hr>
-
       <a href="http://feeds.feedburner.com/Dreamsome">Subscribe</a><br>
-      <a href="/about">About</a><br>
+      
       <a href="/archive">Archive</a><br>
 
       <hr>
-      <h2 class="sidebar-title">CATEGORIES</h2>
-      
+
+      <h2>About</h2>
+
+      <p>首先满足趣味性，然后才是技术或艺术。</p>
+
+      <hr>
+      <h2 class="sidebar-title">Categories</h2>
       {% for category in site.tags %}
       <a href="/{{ category | first }}" title="view all posts">
       {{ category | first }} ({{ category | last | size }})</a>
@@ -35,23 +51,9 @@
     </div>
 
 
-    <div class="container">
-      <div class="logo"><img src="/images/logo.jpg" border="0" /></div>
-      <div class="content">
-        {{ content }}
-      </div>      
-
-
-        
-
+       
     </div>
 
-    <div class="right-border"></div>
-        
-        
-
-       
- 
 
 
 <script>

@@ -4,10 +4,18 @@
 body {
     color: #444;
     line-height: 180%;
-    background: #ffffff;
+    background: #eee;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    background: #EEE url(/images/dia.png) repeat top center;
+}
+
+
+.main {
+
+    margin: 0 auto;
+    width: 960px;
 }
 
 h1,h2,h3,h4 {
@@ -51,8 +59,9 @@ ul, ol{padding-left: 25px;margin: 20px;}
     padding: 30px;
     color: #333;
     font-size: 15px;
-    width: 15%;
-    float: left;
+    width: 220px;
+    float:left;
+    padding-left: 80px;
 }
 
 
@@ -68,7 +77,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .sidebar h2 {
-    color: #999;
+    color: #201616;;
     margin-top: -2px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -98,18 +107,30 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .container {
+    width: 620px;
+    background: white;
     float: left;
-    width: 52.5%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 
 .content { 
-    width: 100%;
-    padding: 30px 0;
+    padding: 40px;
 }
 
 
-a {color: rgb(173, 173, 143); text-decoration: underline; }
+a {color: color: #9d0b0e; text-decoration: none; }
 a:hover { color: #9d0b0e;text-decoration: underline; }
 
 
@@ -119,9 +140,14 @@ p {
 
 hr {
     border: 0;
-    border-top: 1px dotted #BBB;
-    height: 40px;
-    margin-top: 40px;
+    height: 1px;
+    background: #DDD;
+    background: -webkit-linear-gradient(left, rgba(221, 221, 221, 0) 0%, #DDD 10%, #DDD 90%, rgba(221, 221, 221, 0) 99%);
+    background: -moz-linear-gradient(left, rgba(221, 221, 221, 0) 0%, #DDD 10%, #DDD 90%, rgba(221, 221, 221, 0) 99%);
+    background: -ms-linear-gradient(left, rgba(221, 221, 221, 0) 0%, #DDD 10%, #DDD 90%, rgba(221, 221, 221, 0) 99%);
+    background: -o-linear-gradient(left, rgba(221, 221, 221, 0) 0%, #DDD 10%, #DDD 90%, rgba(221, 221, 221, 0) 99%);
+    background: linear-gradient(left, rgba(221, 221, 221, 0) 0%, #DDD 10%, #DDD 90%, rgba(221, 221, 221, 0) 99%);
+    margin: 2em 0;
 }
 
 
@@ -240,17 +266,16 @@ p code {
 .sidenote {
     display: block;
     font-size: small;
-    margin-right: -30%;
-    width: 25%;
+    margin-right: -150px;
+    width: 100px;
     float: right;
     padding: 5px;
     position: relative;
-    color: #999;
+    background: wheat;
 }
 
 .pagination {
     text-align: center;
-    border-top: 1px dotted #BBB;
     padding: 5px;
     font-size: 16px;
 }
@@ -264,20 +289,19 @@ p code {
 }
 
 .logo {
+
+    width: 620px;
     text-align: center;
 
 }
 
 .logo img {
-    width: 25%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    opacity: 0.4;
+    width: 350px;
+
 }
 
 .logo img:hover {
-    opacity: 0.9;
+
 }
 
 
@@ -300,10 +324,6 @@ p code {
     color: #222;
     background:none;
     border-bottom: dotted 1px #222;
-}
-#disqus_thread {
-    width: 90%;
-    margin: 0 auto;
 }
 
 .note {

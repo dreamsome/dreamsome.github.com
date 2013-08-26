@@ -68,7 +68,4 @@ tags : [arch]
 
 ![](http://ww2.sinaimg.cn/mw690/534218ffjw1e7yof5z2ghj20gg0awmxn.jpg)
 
-。
-
-
 
