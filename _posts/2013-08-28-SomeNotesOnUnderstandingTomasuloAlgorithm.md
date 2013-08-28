@@ -12,7 +12,7 @@ As what Thomas S. Kuhn said in *[The Structure of Scientific Revolutions](http:/
 
 <!--more-->
 
-Other sources I think are also useful when understand a thing.
+Other sources I think are also useful for understand a thing:
 
 * Original paper
 * Thoughts from an experienced person(especially when they are making conclusions)
