@@ -25,7 +25,7 @@ h1,h2,h3,h4 {
 
 h3 {
     font-size: 20px; 
-    color: #CA5656;
+    color: #222;
 }
 
 h4 {font-size: 17px; color: #333;}
@@ -130,8 +130,8 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 
-a {color: color: #9d0b0e; text-decoration: none; }
-a:hover { color: #9d0b0e;text-decoration: underline; }
+a {color: #CA5656; text-decoration: none; }
+a:hover { color: #CA5656;text-decoration: underline; }
 
 
 p {
@@ -181,16 +181,20 @@ blockquote {
     color: #111;
     font-weight: normal;
     font-size: 22px;
-    line-height: 22px;
+    line-height: 30px;
     margin: 0;
+    padding: 0 40px;
+    text-align: center;
 }
 
 
 
 .entry-title h2 {
-    font-size: 20px;
-    line-height: 22px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
     margin: 0;
+    padding: 0 40px;
 }
 
 .entry-title h2 a {
@@ -220,11 +224,14 @@ width: 70px;
 line-height: 1;
 text-align: center;
 padding: 6px;
+display: none;
 }
 
 .tags {
+    text-align:center;
     color: #AAA;
     font-size: 15px;
+    margin: 15px 0;
 }
 
 .tags a {

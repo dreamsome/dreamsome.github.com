@@ -13,8 +13,8 @@ title: sys
   </div>
   <div class="author">by <a href="http://chengyichao.info/">cyc</a> in <a href="/{{post.categories[0]}}">{{ post.categories }}</a></div>
   {{ post.content | split:'<!--more-->'| first }}
-  <div class="meta"><a href="{{ post.url }}">~ ~ ~</a> </div>
+  <p><a href="{{ post.url }}">Read more</a></p>
 </div>
-<br><br>
+<hr>
 
 {% endfor %}
