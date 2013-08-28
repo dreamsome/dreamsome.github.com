@@ -6,9 +6,9 @@ tags : [arch]
 
 
 
-**1.Textbook is just one of the references of knowledge, but not all of them.**
+**1.Textbook is just one of the references to knowledge, but not all of them.**
 
-As what Thomas S. Kuhn said in *[The Structure of Scientific Revolutions](http://www.amazon.com/Structure-Scientific-Revolutions-Thomas-Kuhn/dp/0226458083)*, textbooks are misleading for the lack of details. Textbook hides away almost many important things behind an idea for conciseness, like the critical history, the original intention and the 'dead' competitors. Instead, it tells you the **outcome** directly. As a result, you get a whole picture of A, B, plus C, plus D... but don't know why they *have to* be there. 
+As what Thomas S. Kuhn said in *[The Structure of Scientific Revolutions](http://www.amazon.com/Structure-Scientific-Revolutions-Thomas-Kuhn/dp/0226458083)*, textbooks are misleading for the lack of details. Textbook hides away many important things behind an idea for conciseness, like the critical history, the original intention and the 'dead' competitors. Instead, it tells you the **outcome** directly. As a result, you get a whole picture of A, B, plus C, plus D... but don't know why they *have to* be there. 
 
 <!--more-->
 
