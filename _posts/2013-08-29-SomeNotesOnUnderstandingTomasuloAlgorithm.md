@@ -29,8 +29,8 @@ Thomas S. Kuhn 在[《科学革命的结构》](http://book.douban.com/subject/1
 
 
 
-**4.Tomasulo 算法和重排序缓冲（reorder buffer）**
+**4.Tomasulo 算法和重排序缓冲（reorder buffer）没有任何关系**
 
 
-，尽管它俩在现代微处理器中都扮演了很关键的角色。但 Tomasulo 算法的目的在于实现乱序执行，而 reorder buffer 旨在实现[精确中断](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=00004607)。
+，尽管它俩在现代微处理器中都扮演了很关键的角色。但 Tomasulo 算法的目的在于实现乱序执行（不保证提交顺序），而 reorder buffer 旨在实现[精确中断](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=00004607)。
 
