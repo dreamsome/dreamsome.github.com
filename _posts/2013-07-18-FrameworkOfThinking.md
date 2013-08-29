@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "思维的框架"
-tags: [zen]
+tags: [voice]
 ---
 
 

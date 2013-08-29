@@ -20,7 +20,7 @@ Other sources I think are also useful for understand a thing:
 
 **2.Register renaming is not like what its name suggests.**
 
-The common register renaming scheme is providing more physical registers than the ISA needs. In this case, before an instruction is fed to the instruction queue, the name of its architectual register(e.g r5) has been modified to a physical one(e.g. p19). However the Tomasulo algorithm uses another approach. In this approach, the register of an instruction is actually "renamed" to the No. of a functional unit (it can be a single slot/entry in [reservation station](https://en.wikipedia.org/wiki/Reservation_stations) or any register).
+The common register renaming scheme is providing more physical registers than the ISA needs. In this case, before an instruction is fed to the instruction queue, the name of its architectual register(e.g r5) has been modified to a physical one(e.g. p19). However the Tomasulo algorithm uses another approach. In this approach, the register of an instruction is actually "renamed" to the No. of a *part* (a *part* can be a single slot/entry in [reservation station](https://en.wikipedia.org/wiki/Reservation_stations) or any register).
 
 **3.Abstraction is a powerful weapon.**
 
