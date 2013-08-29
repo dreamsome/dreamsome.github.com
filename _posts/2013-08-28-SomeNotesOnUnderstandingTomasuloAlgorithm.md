@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some Notes on \"Understanding Tomasulo Algorithm\""
-tags : [arch]
+tags : [arch, eng]
 ---
 
 
@@ -20,15 +20,15 @@ Other sources I think are also useful for understand a thing:
 
 **2.Register renaming is not like what its name suggests.**
 
-The common register renaming scheme is providing more physical registers than the ISA needs. In this case, before an instruction is fed to the instruction queue, the name of its architectual register(e.g r5) has been modified to a physical one(e.g. p19). However the Tomasulo algorithm uses another approach. In this approach, the register of an instruction is actually "renamed" to the No. of a functional unit (it can be a single slot in [reservation station](https://en.wikipedia.org/wiki/Reservation_stations) or a register).
+The common register renaming scheme is providing more physical registers than the ISA needs. In this case, before an instruction is fed to the instruction queue, the name of its architectual register(e.g r5) has been modified to a physical one(e.g. p19). However the Tomasulo algorithm uses another approach. In this approach, the register of an instruction is actually "renamed" to the No. of a functional unit (it can be a single slot/entry in [reservation station](https://en.wikipedia.org/wiki/Reservation_stations) or any register).
 
 **3.Abstraction is a powerful weapon.**
 
-The producer-consumer model simplifies the relationship between two instructions. With this model, the role of CDB is self-evident: Producers throw their outputs to *somewhere* where consumers can find their inputs distinguished by tags.
+The producer-consumer model simplifies the relationship between two instructions. With this model, the role of CDB is self-evident: the producers throw their outputs to *somewhere* where the consumers can collect their inputs distinguished by tags.
 
 
-**4.Tomasulo Algorithm has nothing to do with reorder buffer.**
+**4.Tomasulo Algorithm has nothing to do with the reorder buffer.**
 
-,though they often appear together in the modern microprocessors. The purpose of Tomasulo Algorithms is to enable out-of-order execution while the motivation of reorder buffer is to implement [precise interrupt]().
+,though they both play an important role in modern microprocessors. The purpose of Tomasulo Algorithms is to enable out-of-order execution while the motivation of reorder buffer is to implement [precise interrupt](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=00004607).
 
 
