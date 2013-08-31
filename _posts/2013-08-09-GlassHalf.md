@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "半杯水心理学"
-tags: [comic]
+tags: [comic, fun]
 ---
 
 
