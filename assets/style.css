@@ -4,18 +4,17 @@
 body {
     color: #333;
     line-height: 180%;
-    background: #eee;
+    background: khaki;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
     font-size: 14px;
-    background: #EEE url(/images/dia.png) repeat top center;
 }
 
 
 .main {
 
     margin: 0 auto;
-    width: 960px;
+    width: 720px;
 }
 
 h1,h2,h3,h4 {
@@ -36,6 +35,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 .chaos {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .chaos li {
@@ -51,23 +51,42 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .chaos .title {
-    color: #444;
     text-decoration:none;
 }
 
 .sidebar {
-    padding: 30px;
+    padding: 10px;
+    background: white;
     color: #333;
-    font-size: 15px;
-    width: 220px;
+    font-size: 16px;
+    width: 185px;
+    height: 129px;
     float:left;
-    padding-left: 80px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
 
 .sidebar a{
-    color: rgb(119, 72, 68);
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
     text-decoration:none;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 10px;
 }
 
 .sidebar a:hover {
@@ -107,21 +126,21 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .container {
-    width: 620px;
-    background: white;
+    width: 100%;
     float: left;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+    background: white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -166,7 +185,7 @@ pre {
 }
 
 p img {
-    max-width: 90%;
+    max-width: 78%;
     display: block;
     margin: 40px auto;
 }
@@ -297,14 +316,28 @@ p code {
 
 .logo {
 
-    width: 620px;
-    text-align: center;
+    width: 495px;
+    float:left;
+    background: white;
+    padding-left: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-left: 10px;
 
 }
 
 .logo img {
-    width: 350px;
-
+    width: 300px;
+    margin-top: -30px;
 }
 
 .logo img:hover {
