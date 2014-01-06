@@ -1,9 +1,8 @@
 title: Dreamsome
-desc: Cheng Yichao's weblog
 author:
   name: Cheng Yichao
   email: onesuperclark@gmail.com 
-permalink: /:year/:month/:day/:title 
+permalink: /:title 
 pygments: true
 paginate: 10
 markdown: rdiscount

@@ -185,7 +185,7 @@ pre {
 }
 
 p img {
-    max-width: 78%;
+    max-width: 100%;
     display: block;
     margin: 40px auto;
 }
