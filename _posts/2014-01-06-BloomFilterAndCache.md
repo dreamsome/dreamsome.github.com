@@ -4,5 +4,5 @@ title: "False Positive"
 tags: [comic]
 ---
 
-![](http://ww3.sinaimg.cn/mw690/534218ffjw1ec685ipmezj20j60clgms.jpg)
+![](http://ww4.sinaimg.cn/mw690/534218ffjw1eca4srtb5pj20lg0oyq4f.jpg)
 
