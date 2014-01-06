@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "无限猴子理论"
+title: "False Positive"
 tags: [comic]
 ---
 
