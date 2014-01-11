@@ -10,8 +10,26 @@ layout: default
   
 </div>
 
+<ul class="comicNav">
+<li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
+<li><a rel="prev" href="{{ page.previous.url }}" accesskey="p">&lt; Prev</a></li>
+<li><a href="/archive">All</a></li>
+<li><a rel="next" href="{{ page.next.url }}" accesskey="n">Next &gt;</a></li>
+<li><a href="{{ site.posts.first.url }}">&gt;|</a></li>
+</ul>
+
 
 {{ content }}
+
+
+<ul class="comicNav">
+<li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
+<li><a rel="prev" href="{{ page.previous.url }}" accesskey="p">&lt; Prev</a></li>
+<li><a href="/archive">All</a></li>
+<li><a rel="next" href="{{ page.next.url }}" accesskey="n">Next &gt;</a></li>
+<li><a href="{{ site.posts.first.url }}">&gt;|</a></li>
+</ul>
+
 
 <!--
 <hr>

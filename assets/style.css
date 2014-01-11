@@ -146,6 +146,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 .content { 
     padding: 40px;
+    text-align: center;
 }
 
 
@@ -275,44 +276,7 @@ display: none;
     text-decoration: none;
 }
 
-code {
-    margin:0px;
-    padding:0px;
 
-}
-
-p code {
-    font-size: 15px;
-    padding: 2px;
-    border-radius: 3px;
-    background: #fcfcfc;
-    color: #09738D;
-}
-
-.sidenote {
-    display: block;
-    font-size: small;
-    margin-right: -150px;
-    width: 100px;
-    float: right;
-    padding: 5px;
-    position: relative;
-    background: wheat;
-}
-
-.pagination {
-    text-align: center;
-    padding: 5px;
-    font-size: 16px;
-}
-
-.previous, .next {
-
-}
-.sep {
-    text-align: center;
-    margin: 40px;
-}
 
 .logo {
 
@@ -372,5 +336,41 @@ p code {
     font-size: 14px;
     font-family: serif;
     vertical-align: super;
+}
+
+
+ul.comicNav {
+	padding:0;
+	list-style-type:none;
+}
+ul.comicNav li {
+	display: inline;
+}
+
+ul.comicNav  li a {
+	
+	background-color:#86504E;
+	color: #FFF;
+	border: 1.5px solid #333;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 1.5px 12px;
+	margin: 0 4px;
+	text-decoration: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0 0 5px 0 gray;
+	-moz-box-shadow: 0 0 5px 0 gray;
+	-webkit-box-shadow: 0 0 5px 0 gray;	
+}
+
+
+ul.comicNav a:hover {
+	background-color: #FFF;
+	color: #86504E;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
