@@ -9,23 +9,60 @@
     <link href="/assets/code.css" rel="stylesheet" type="text/css" media="all" />
     <link href="http://feeds.feedburner.com/Dreamsome" rel="alternate" type="application/atom+xml" />  
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <script>
+   var posts = [];
+   {% for post in site.posts %}
+      posts.push("{{ post.url }}");
+   {% endfor %}  
+
+   function random_post() {
+    window.location = posts[Math.floor(Math.random() * posts.length)]; 
+   }
+    </script>
   </head>
+
+
 
   <body>    
 
     <div class="main">
 
+      <div class="container">
 
-    <a href="/"><img style="margin-bottom:-100px;width:330px;" src="/images/logo.png" border="0" /></a>
-    <div class="container">
+	<div class="content">
+          {{ content }}
+	</div>   
 
-      <div class="content">
-        {{ content }}
-      </div>      
+	<ul class="comicNav">
+	  <li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
+	  <li><a rel="prev" href="{{ page.previous.url }}" accesskey="p">&lt; Prev</a></li>
+	  <li><a id="random" href="javascript:random_post()">Random</a></li>
+	  <li><a rel="next" href="{{ page.next.url }}" accesskey="n">Next &gt;</a></li>
+	  <li><a href="{{ site.posts.first.url }}">&gt;|</a></li>
+	</ul>
+
+
+
+	<ul class="chaos">
+	  {% for post in site.posts %}
+	  <li>
+	    <a class="title" href="{{post.url}}">{{ post.title }}</a>
+	  </li>
+	  {% endfor %}
+	</ul>
+	<br>
+      </div>
+      
+      <div class="container">
+
+
+      </div>
+
+
+      
+
     </div>
-
-
-  </div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

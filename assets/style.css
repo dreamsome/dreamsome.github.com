@@ -4,7 +4,7 @@
 body {
     color: #333;
     line-height: 180%;
-    background: khaki;
+    background: beige;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
     font-size: 14px;
@@ -39,19 +39,8 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .chaos li {
-    margin-top: 3px;
     list-style-type: none;
 
-}
-
-.chaos .time {
-    color: #999;
-    float: right;
-    
-}
-
-.chaos .title {
-    text-decoration:none;
 }
 
 .sidebar {
@@ -126,6 +115,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
 }
 
 .container {
+    text-align: center;
     width: 100%;
     float: left;
     background: white;
@@ -139,19 +129,21 @@ ul, ol{padding-left: 25px;margin: 20px;}
     -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-    margin-bottom: 40px;
     margin-top: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #071419;
 }
 
 
 .content { 
-    padding: 40px;
-    text-align: center;
+    padding: 20px;
+
 }
 
 
 a {color: #CA5656; text-decoration: none; }
-a:hover { color: #CA5656;text-decoration: underline; }
+a:hover { color: #CA5656; text-decoration: underline; }
 
 
 p {
@@ -186,9 +178,9 @@ pre {
 }
 
 p img {
-    max-width: 100%;
+    max-width: 95%;
     display: block;
-    margin: 40px auto;
+    margin: 0px auto;
 }
 
 

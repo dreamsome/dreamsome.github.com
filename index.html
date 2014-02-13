@@ -5,33 +5,15 @@ title: Dreamsome
 
 
 {% for post in paginator.posts limit:1 %}
-<div class="postview">
   
-  <div class="entry-title">
-    <span class="timestamp">{{ post.date | date_to_string }}</span>   
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <div class="pagetitle">
+    <h1>{{ post.title }}</h1>
   </div>
 
-<ul class="comicNav">
-<li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
-<li><a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">&lt; Prev</a></li>
-<li><a href="/archive">All</a></li>
-<li><a rel="next" href="#" accesskey="n">Next &gt;</a></li>
-<li><a href="#">&gt;|</a></li>
-</ul>
 
   {{ post.content  }}
 
 
-<ul class="comicNav">
-<li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
-<li><a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">&lt; Prev</a></li>
-<li><a href="/archive">All</a></li>
-<li><a rel="next" href="#" accesskey="n">Next &gt;</a></li>
-<li><a href="#">&gt;|</a></li>
-</ul>
-
-</div>
 
 {% endfor %}
 
