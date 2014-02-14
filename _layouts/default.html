@@ -26,40 +26,34 @@
 
   <body>    
 
+
+    <div class="sidebar-left">
+      <a href="/archive.html"><img class="crow" src="/images/arch.png" /></a><br>
+      
+      <a href="http://feeds.feedburner.com/Dreamsome"><img class="crow" src="/images/rss.png" /></a><br>
+      <a href="http://blog.chengyichao.info/"><img class="crow" src="/images/blog.png" /></a><br>
+      <a href="/contact.html"><img class="crow" src="/images/contact.png" /></a><br><br>
+      <a href="/about.html"><img class="crow" src="/images/about2.png" /></a><br>
+
+    </div>
+
     <div class="main">
 
-      <div class="container">
+
+      <div class="full-container box">
 
 	<div class="content">
           {{ content }}
 	</div>   
-
-	<ul class="comicNav">
-	  <li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
-	  <li><a rel="prev" href="{{ page.previous.url }}" accesskey="p">&lt; Prev</a></li>
-	  <li><a id="random" href="javascript:random_post()">Random</a></li>
-	  <li><a rel="next" href="{{ page.next.url }}" accesskey="n">Next &gt;</a></li>
-	  <li><a href="{{ site.posts.first.url }}">&gt;|</a></li>
-	</ul>
-
-
-
-	<ul class="chaos">
-	  {% for post in site.posts %}
-	  <li>
-	    <a class="title" href="{{post.url}}">{{ post.title }}</a>
-	  </li>
-	  {% endfor %}
-	</ul>
-	<br>
       </div>
       
-      <div class="container">
-
-
+      <div class="full-container box">
+	<div class="content">
+	<p class="half-container">所有作品受到 <a href="">Creative Commons Attribution-NonCommercial 2.5</a> 许可证保护。</p>
+	</div>
       </div>
 
-
+      
       
 
     </div>
