@@ -305,12 +305,7 @@ ul.comicNav  li a {
 	padding: 1.5px 12px;
 	margin: 0 4px;
 	text-decoration: none;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	box-shadow: 0 0 5px 0 gray;
-	-moz-box-shadow: 0 0 5px 0 gray;
-	-webkit-box-shadow: 0 0 5px 0 gray;	
+
 }
 
 
