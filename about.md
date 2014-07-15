@@ -7,10 +7,9 @@ title: "关于"
 
 Dreamsome （梦什么）是一个关于“浪漫、幽默、科技、神秘”的漫画网站。
 
-
 ### 你是谁？
 
-[online profile](htttp://chengyichao.info)
+[online profile](http://chengyichao.info)
 
 
 
