@@ -1,26 +1,23 @@
 ---
 layout: default
-title: Dreamsome
+title: Dreamsome网络漫画
 ---
 
 
+
+
 {% for post in paginator.posts limit:1 %}
-  
   <div class="pagetitle">
     <h1>{{ post.title }}</h1>
   </div>
 
+<div>
+<div style="float:left";>« <a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">{{ site.posts.first.previous.title }}</a></div>
+</div>
+<div style="clear:both;">
 
   {{ post.content  }}
-
 {% endfor %}
 
 
-<ul class="comicNav">
-  <li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
-  <li><a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">&lt; Prev</a></li>
-  <li><a id="random" href="javascript:random_post()">Random</a></li>
-  <li><a rel="next" href="#" accesskey="n">Next &gt;</a></li>
-  <li><a href="#">&gt;|</a></li>
-</ul>
 

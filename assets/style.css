@@ -4,7 +4,8 @@
 body {
     color: #333;
     line-height: 180%;
-    background: beige;
+    background: black;
+    font-variant: small-caps;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
     font-size: 14px;
@@ -12,9 +13,9 @@ body {
 
 
 .main {
-
-    margin: 20px auto;
+    margin: 0px auto;
     width: 750px;
+    text-align: center;
 }
 
 h1,h2,h3,h4 {
@@ -43,21 +44,6 @@ ul, ol{padding-left: 25px;margin: 20px;}
 
 }
 
-.sidebar-left {
-    width:200px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 150px 0 0 50px;
-
-}
-
-.sidebar-right {
-    position: absoulute;
-    right: 0;
-    top: 0;
-    width: 300px;
-}
 
 .full-container {
     width: 100%;
@@ -73,7 +59,7 @@ ul, ol{padding-left: 25px;margin: 20px;}
     padding: 2px;
 }
 .box {
-
+    padding: 15px 0px;
     text-align: center;
     background: white;
     -webkit-border-radius: 8px;
@@ -92,13 +78,15 @@ ul, ol{padding-left: 25px;margin: 20px;}
     border-color: #071419;
 }
 
+.navbar {
+    height: 30px;
+}
 .content { 
-    padding: 20px 5px;
-
+    padding: 0px 20px;
 }
 
 
-a {color: #CA5656; text-decoration: none; }
+a {color: #CA5656; text-decoration: underline; }
 a:hover { color: #CA5656; text-decoration: underline; }
 
 
@@ -151,7 +139,7 @@ blockquote {
     font-size: 22px;
     line-height: 30px;
     margin: 0;
-    padding: 0 40px;
+    padding: 10px 40px;
     text-align: center;
 }
 

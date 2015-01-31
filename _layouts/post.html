@@ -3,21 +3,25 @@ layout: default
 ---
 
 
+
+
 <div class="pagetitle">
   <h1>{{ page.title }}</h1>
-  
 </div>
+<div class="navbar">
+{% if page.previous %}
+    <div style="float:left";>« <a rel="prev" href="{{ page.previous.url }}" accesskey="p">{{ page.previous.title }}</a></div>
+{% endif %}
 
+{% if page.next %}
+    <div style="float:right;"><a rel="next" href="{{ page.next.url }}" accesskey="n">{{ page.next.title }}</a> »</div>
+{% endif %}
+
+</div>
+<div style="clear:both;">
 
 {{ content }}
 
-<ul class="comicNav">
-  <li><a href="{{ site.posts.last.url }}">|&lt;</a></li>
-  <li><a rel="prev" href="{{ page.previous.url }}" accesskey="p">&lt; Prev</a></li>
-  <li><a id="random" href="javascript:random_post()">Random</a></li>
-  <li><a rel="next" href="{{ page.next.url }}" accesskey="n">Next &gt;</a></li>
-  <li><a href="{{ site.posts.first.url }}">&gt;|</a></li>
-</ul>
 
 
-
+链接: {{site.production_url}}{{ page.url }}<br>

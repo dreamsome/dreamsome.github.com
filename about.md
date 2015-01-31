@@ -8,16 +8,9 @@ title: "关于"
 一些稀奇古怪的想法难以以文字的形式严肃地发表，于是有了这样一个网站。
 
 
+### 这些漫画是用什么软件画的？
+
+Keynote
 
 
-### 你使用什么工具？
 
-硬件：Bamboo数位板
-
-软件：SketchBook（像素）、Powerpoint（矢量）
-
-
-### 你是谁？
-
-
-[我的主页](http://chengyichao.info)
