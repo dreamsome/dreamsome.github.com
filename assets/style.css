@@ -5,10 +5,10 @@ body {
     color: #333;
     line-height: 180%;
     background: black;
-    font-variant: small-caps;
     margin: 0;
     font: normal 15px/1.75 'Trebuchet MS', sans-serif;
     font-size: 14px;
+    font-variant: small-caps;
 }
 
 
