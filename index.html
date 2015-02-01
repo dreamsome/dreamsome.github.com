@@ -7,7 +7,7 @@ title: Dreamsome网络漫画
 
 
 <div class="pagetitle">
-    <h1>{{ site.posts.first..title }}</h1>
+    <h1>{{ site.posts.first.title }}</h1>
 </div>
 
 <div>
@@ -17,7 +17,7 @@ title: Dreamsome网络漫画
 
 
 
-<p><image src="/p{{site.posts.first.url}}.png" rel="{{site.posts.first.comment}}"></p>
+<p><image src="/p{{site.posts.first.url}}.png" title="{{site.posts.first.comment}}"></p>
 
 
 链接: {{site.production_url}}{{ site.posts.first.url }}<br>
