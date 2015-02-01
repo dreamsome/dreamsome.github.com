@@ -6,19 +6,18 @@ title: Dreamsome网络漫画
 
 
 
-{% for post in paginator.posts limit:1 %}
-  <div class="pagetitle">
-    <h1>{{ post.title }}</h1>
-  </div>
+<div class="pagetitle">
+    <h1>{{ site.posts.first..title }}</h1>
+</div>
 
 <div>
-<div style="float:left";>« <a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">{{ site.posts.first.previous.title }}</a></div>
+    <div style="float:left";>« <a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">{{ site.posts.first.previous.title }}</a></div>
 </div>
 <div style="clear:both;">
 
-  {{ post.content  }}
-{% endfor %}
 
+
+<p><image src="/p{{site.posts.first.url}}.png" rel="{{site.posts.first.comment}}"></p>
 
 
 链接: {{site.production_url}}{{ site.posts.first.url }}<br>

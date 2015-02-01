@@ -9,17 +9,6 @@
     <link href="/assets/code.css" rel="stylesheet" type="text/css" media="all" />
     <link href="http://feeds.feedburner.com/Dreamsome" rel="alternate" type="application/atom+xml" />  
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-
-    <script>
-   var posts = [];
-   {% for post in site.posts %}
-      posts.push("{{ post.url }}");
-   {% endfor %}  
-
-   function random_post() {
-    window.location = posts[Math.floor(Math.random() * posts.length)]; 
-   }
-    </script>
   </head>
 
 
