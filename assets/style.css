@@ -49,6 +49,19 @@ ul, ol{padding-left: 25px;margin: 20px;}
     width: 100%;
 }
 
+.footer {
+    color:  #666;
+}
+
+.footer a {
+    color:  #999;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color:  #999;
+}
+
 
 .half-container {
     width: 50%;
