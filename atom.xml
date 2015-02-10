@@ -24,7 +24,7 @@ title : Atom Feed
    </author>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.production_url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <summary type="html">&lt;img src="{{site.production_url}}/p{{page.url}}.png" /&gt;</summary>
  </entry>
  {% endfor %}
  
