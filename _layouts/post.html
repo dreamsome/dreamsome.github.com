@@ -9,14 +9,14 @@ layout: default
 
 <div class="navbar">
 {% if page.previous %}
-    <div style="float:left";>« <a rel="prev" href="{{ page.previous.url }}" accesskey="p">{{ page.previous.title }}</a></div>
+    <span style="float: left";>« <a rel="prev" href="{{ page.previous.url }}" accesskey="p">{{ page.previous.title }}</a></span>
 {% endif %}
 
+
 {% if page.next %}
-    <div style="float:right;"><a rel="next" href="{{ page.next.url }}" accesskey="n">{{ page.next.title }}</a> »</div>
+    <span style="float: right"><a rel="next" href="{{ page.next.url }}" accesskey="n">{{ page.next.title }}</a> »</span>
 {% endif %}
 </div>
-<div style="clear:both;">
 
 <p><image src="/p{{page.url}}.png" title="{{page.comment}}"></p>
 

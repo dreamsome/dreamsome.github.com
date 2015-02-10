@@ -9,6 +9,16 @@
     <link href="/assets/code.css" rel="stylesheet" type="text/css" media="all" />
     <link href="http://feeds.feedburner.com/Dreamsome" rel="alternate" type="application/atom+xml" />  
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <script>
+   var posts = [];
+   {% for post in site.posts %} posts.push("{{ post.url }}"); {% endfor %}  
+   function random_post() {
+    window.location = posts[Math.floor(Math.random() * posts.length)]; 
+   }
+    </script>
+
+
   </head>
 
 
@@ -16,6 +26,8 @@
   <body>    
     <div class="main">
       <a href="/"><img src="/images/large.png"></a>
+      <a href="javascript:random_post()" accesskey="r"  title="二一添作五"><img src="/images/dice.png"></a>
+
       <div class="full-container box">
 	      <div class="content">
           {{ content }}
