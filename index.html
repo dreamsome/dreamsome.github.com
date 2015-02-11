@@ -1,23 +1,7 @@
 ---
 layout: default
-title: Dreamsome网络漫画
+title: Index
 ---
 
-
-
-
-<div class="pagetitle"><h1>{{ site.posts.first.title }}</h1></div>
-
-<div class="navbar">
-    <span style="float:left";>« <a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">{{ site.posts.first.previous.title }}</a></span>
-</div>
-
-
-
-<p><image src="/p{{site.posts.first.url}}.png" title="{{site.posts.first.comment}}"></p>
-
-
-<div style="text-align:center">
-<p>链接: {{site.production_url}}{{ site.posts.first.url }}</p>
-</div>
-
+{% assign page = site.posts.first %}
+{% include post.html %}

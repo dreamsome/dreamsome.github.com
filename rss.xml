@@ -7,15 +7,15 @@ title : RSS Feed
 <rss version="2.0">
    <channel>
       <title>{{ site.title }}</title>
-      <description>{% if site.description %}{{ site.description }}{% endif %}</description>    
-      <link>{{ site.url }}</link>
+      <description>{{ site.desc }}</description>
+      <link>{{ site.production_url }}</link>
       {% for post in site.posts limit:5 %}
          <item>
             <title>{{ post.title | xml_escape }}</title>
             <description>&lt;img src="{{site.production_url}}/p{{post.url}}.png" /&gt;</description>
             <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
             <link>{{ site.url }}{{ post.url }}</link>
-            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <guid isPermaLink="true">{{ site.production_url }}{{ post.url }}</guid>
          </item>
       {% endfor %}
    </channel>
