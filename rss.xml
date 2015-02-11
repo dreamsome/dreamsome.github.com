@@ -8,14 +8,14 @@ title : RSS Feed
    <channel>
       <title>{{ site.title }}</title>
       <description>{{ site.desc }}</description>
-      <link>{{ site.production_url }}</link>
+      <link>{{ site.production_url }}/</link>
       {% for post in site.posts limit:5 %}
          <item>
             <title>{{ post.title | xml_escape }}</title>
-            <link>{{ site.production_url }}{{ post.url }}</link>
+            <link>{{ site.production_url }}{{ post.url }}/</link>
             <description>&lt;img src="{{site.production_url}}/p{{post.url}}.png" /&gt;</description>
             <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-            <guid>{{ site.production_url }}{{ post.url }}</guid>
+            <guid>{{ site.production_url }}{{ post.url }}/</guid>
          </item>
       {% endfor %}
    </channel>

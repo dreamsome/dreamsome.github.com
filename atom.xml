@@ -4,24 +4,17 @@ title : Atom Feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
  <title>{{ site.title }}</title>
- <link href="{{ site.production_url }}/atom.xml" rel="self"/>
- <link href="{{ site.production_url }}"/>
+ <link href="{{ site.production_url }}/" rel="alternate"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.production_url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
-
+ <id>{{ site.production_url }}/</id>
  {% for post in site.posts limit:5 %}
+ 
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ site.production_url }}{{ post.url }}"/>
-   <author><name>{{ site.author.name }}</name></author>
+   <link href="{{ site.production_url }}{{ post.url }}/"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.production_url }}{{ post.id }}</id>
+   <id>{{ site.production_url }}{{ post.id }}/</id>
    <summary type="html">&lt;img src="{{site.production_url}}/p{{post.url}}.png" /&gt;</summary>
  </entry>
  {% endfor %}
