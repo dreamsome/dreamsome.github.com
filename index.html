@@ -6,18 +6,18 @@ title: Dreamsome网络漫画
 
 
 
-<div class="pagetitle">
-    <h1>{{ site.posts.first.title }}</h1>
-</div>
+<div class="pagetitle"><h1>{{ site.posts.first.title }}</h1></div>
 
-<div>
-    <div style="float:left";>« <a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">{{ site.posts.first.previous.title }}</a></div>
+<div class="navbar">
+    <span style="float:left";>« <a rel="prev" href="{{ site.posts.first.previous.url }}" accesskey="p">{{ site.posts.first.previous.title }}</a></span>
 </div>
-<div style="clear:both;">
 
 
 
 <p><image src="/p{{site.posts.first.url}}.png" title="{{site.posts.first.comment}}"></p>
 
 
-链接: {{site.production_url}}{{ site.posts.first.url }}<br>
+<div style="text-align:center">
+<p>链接: {{site.production_url}}{{ site.posts.first.url }}</p>
+</div>
+
