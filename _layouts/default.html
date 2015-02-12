@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+{% if page.title %}
     <title>Dreamsome: {{ page.title }}</title>
+{% else %}
+    <title>Dreamsome: {{ site.posts.first.title }}</title>
+{% endif %}
     <link href="/assets/style.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/atom.xml"/>
