@@ -2,16 +2,8 @@
 layout: page
 title: 存档
 ---
-
-
-
 <ul class="chaos">
-{% for post in site.posts %}
-<li>
-  <a class="title" href="{{post.url}}">{{ post.title }}</a>
-</li>
-
-
+{% for post in site.posts %}<li><a class="title" href="{{post.url}}" title="{{ post.date | date: "%Y年%-m月%-d日" }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 

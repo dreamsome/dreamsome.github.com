@@ -1,73 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-{% if page.title %}
-    <title>Dreamsome: {{ page.title }}</title>
-{% else %}
-    <title>Dreamsome: {{ site.posts.first.title }}</title>
-{% endif %}
-    <link href="/assets/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/atom.xml"/>
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss.xml"/>
-
-    <script>
-   var posts = [];
-   {% for post in site.posts %} posts.push("{{ post.url }}"); {% endfor %}  
-   function random_post() {
-    window.location = posts[Math.floor(Math.random() * posts.length)]; 
-   }
-    </script>
-
-
-  </head>
-
-
-
-  <body>
-    <div class="main header">
-      <div class="logo">
-        <a href="/"><img src="/images/large.png"></a>
-        <a id="random" href="javascript:random_post()" accesskey="r"  title="二一添作五"><img src="/images/dice.png"></a>
-      </div class="logo">
-    </div>
-
-
-    <div class="main">
-      <div class="full-container box">
-	      <div class="content">
-
-          {{ content }}
-
-	      </div>   
-      </div>
-    </div>
-
-
-    <div class="main footer">
-      <div class="half-container">
-        <div class="content">
-        <p><a href="/archive/">存档</a> - <a href="/about/">关于</a> - <b><a href="/rss.xml">RSS</a>/<a href="/atom.xml">Atom</a></b>订阅</p>        
-        <p>坚持画有诗意的讽刺漫画 / 一、三、五更新</p>
-        <p class="small-font"><b><i>BTC 1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo</i></b></p>
-        <p class="small-font">本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 协议</p>
-        </div>
-      </div>
-    </div>
-
-
-
+<head>
+<meta charset="utf-8">
+{% if page.title %}<title>Dreamsome: {{ page.title }}</title>{% else %}
+<title>Dreamsome: {{ site.posts.first.title }}</title>{% endif %}
+<link href="/assets/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/atom.xml"/>
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss.xml"/>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-41895626-1', 'dreamsome.org');
-  ga('send', 'pageview');
-
+var posts = [];
+{% for post in site.posts %}posts.push("{{ post.url }}"); {% endfor %}  
+function roll_dice(){window.location = posts[Math.floor(Math.random() * posts.length)];}
 </script>
+</head>
+<body>
+<div class="container">
 
-  </body>
+<div id="header">
+<a href="/"><img src="/images/large.png"></a>
+</div>
+
+<div class="box">
+<div class="full-content center-align">
+{{ content }}
+</div>
+</div>
+
+<div id="footer" class="half-content">
+<p>
+<a href="/archive/">存档</a> - 
+<a href="/about/">关于</a> - <b>
+<a href="/rss.xml">RSS</a> /
+<a href="/atom.xml">Atom</a></b>订阅
+</p>        
+<p>坚持画有诗意的讽刺漫画 / 一、三、五更新</p>
+<p class="small-font"><b><i>BTC 1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo</i></b></p>
+<p class="small-font">本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 协议</p>
+</div>
+</div>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-41895626-1', 'dreamsome.org');ga('send', 'pageview');</script>
+</body>
 </html>
