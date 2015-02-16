@@ -160,6 +160,6 @@ li { list-style-type:none; }
 
 .sharebar {
     height: 20px;
-    margin: 0 auto;
+    margin: 20px auto 0px auto;
     width: 165px;
 }
