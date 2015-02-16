@@ -157,3 +157,9 @@ li { list-style-type:none; }
 
 
 .clear { clear:both ;}
+
+.sharebar {
+    height: 20px;
+    margin: 0 auto;
+    width: 165px;
+}
