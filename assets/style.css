@@ -36,9 +36,10 @@ ul.chaos li { list-style-type:none; line-height: 1.4;}
 }
 
 #comic-title h1 {
+    color: black;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 25px;
     margin: 0;
 }
 
