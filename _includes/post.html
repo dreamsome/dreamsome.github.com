@@ -1,23 +1,38 @@
 <div id="comic">
-<div id="comic-header">
-<div id="comic-title"><h1>{{ page.title }}</h1></div>
-<div class="navs">
-{%if page.previous %}
-<a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}" accesskey="p"><div id="prev-item" class="nav-item">&nbsp;</div></a>
-{%else%}
-<div id="prev-item-dark" class="nav-item">&nbsp;</div>
-{%endif%}
-<a rel="random" href="javascript:roll_dice()"><div id="random-item" class="nav-item">&nbsp;</div></a>
-{%if page.next %}
-<a rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}" accesskey="n"><div id="next-item" class="nav-item">&nbsp;</div></a>
-{%else%}
-<div id="next-item-dark" class="nav-item">&nbsp;</div>
-{%endif%}
-</div>
-<div class="clear"></div>
-</div>
 <img src="{{site.img_url}}{{page.url}}.png" title="{{page.comment}}" />
-<div><p>链接: {{site.production_url}}{{ page.url }}</p></div>
+<br>
+<div id="comic-title"><h1>{{ page.title }}</h1></div>
+
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style" id="share">
+<a class="jiathis_button_icons_1"></a>
+<a class="jiathis_button_icons_2"></a>
+<a class="jiathis_button_icons_3"></a>
+<a class="jiathis_button_icons_4"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+    url:"{{site.production_url}}{{ page.url }}",
+    summary:"",
+    shortUrl:false,
+    hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<ul class="navs">
+ <li><a href="/1002/">|&lt;</a></li>
+ <li><a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}" accesskey="p">&lt;</a></li>
+ <li><a rel="random" href="javascript:roll_dice()">?</a></li>
+ <li><a rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}" accesskey="n">&gt;</a></li>
+ <li><a href="/">&gt;|</a></li>
+</ul>
+ <div id="transcript">{{ page.content | xml_escape }}</div>
+<!-- <div><p>链接: {{site.production_url}}{{ page.url }}</p></div>
+ -->
 </div>
 
 
