@@ -13,7 +13,7 @@ title : RSS Feed
          <item>
             <title>{{ post.title | xml_escape }}</title>
             <link>{{ site.production_url }}{{ post.url }}/</link>
-            <description>&lt;img src="{{site.production_url}}/p{{post.url}}.png" /&gt;</description>
+            <description>&lt;img src="{{site.img_url}}{{post.url}}.png" /&gt;</description>
             <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
             <guid>{{ site.production_url }}{{ post.url }}/</guid>
          </item>

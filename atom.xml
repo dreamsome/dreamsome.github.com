@@ -15,7 +15,7 @@ title : Atom Feed
    <link href="{{ site.production_url }}{{ post.url }}/"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.production_url }}{{ post.id }}/</id>
-   <summary type="html">&lt;img src="{{site.production_url}}/p{{post.url}}.png" /&gt;</summary>
+   <summary type="html">&lt;img src="{{site.img_url}}{{post.url}}.png" /&gt;</summary>
  </entry>
  {% endfor %}
  
