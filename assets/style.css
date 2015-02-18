@@ -25,9 +25,8 @@ p { margin: 15px 0; line-height: 1.8; }
 ul.chaos li { list-style-type:none; line-height: 1.4;}
 
 .container {
-    width: 50%;
+    width: 700px;
     margin: 0 auto;
-    border: 2px solid black;
     padding: 20px;
 }
 
