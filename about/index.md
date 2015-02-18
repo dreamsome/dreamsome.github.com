@@ -3,6 +3,7 @@ layout: page
 title: "关于"
 ---
 
+本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a>
 
 欢迎通过邮箱给我留言：onesuperclark@gmail.com
 
@@ -30,4 +31,4 @@ title: "关于"
 
 [46_50.key](/src/46_50.key)
 
-
+1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo
