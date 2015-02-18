@@ -25,9 +25,8 @@ p { margin: 15px 0; line-height: 1.8; }
 ul.chaos li { list-style-type:none; line-height: 1.4;}
 
 .container {
-    width: 700px;
+    width: 50%;
     margin: 0 auto;
-    padding: 20px;
 }
 
 #comic img {
