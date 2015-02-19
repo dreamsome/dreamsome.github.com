@@ -3,7 +3,7 @@ layout: page
 title: "关于"
 ---
 
-本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a>
+本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证
 
 欢迎通过邮箱给我留言：onesuperclark@gmail.com
 
@@ -29,5 +29,5 @@ title: "关于"
 
 从 #1046 开始所有漫画的都是用 Mac Keynote 画的，所以是矢量图，你可以下载它们的源文件，进行二次创作，构建自己心中的场景。我还在整理一个元素库，希望更多的人能够通过“拖拽图形”制造出有创意的搞笑图片。
 
-[46_50.key](/src/46_50.key)
+[46_50.key](/src/46_50.key), [51_60.key](/src/51_60.key)
 
