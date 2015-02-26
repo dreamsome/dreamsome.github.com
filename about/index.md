@@ -25,9 +25,10 @@ title: "关于"
 “喜欢做梦的”，参照 troublesome darksome threesome...
 
 
-#### 这些漫画都是用什么工具画的？
+#### 这些画都是用什么工具画的？
 
 从 #1046 开始所有漫画的都是用 Mac Keynote 画的，所以是矢量图，你可以下载它们的源文件，进行二次创作，构建自己心中的场景。我还在整理一个元素库，希望更多的人能够通过“拖拽图形”制造出有创意的搞笑图片。
 
 [46_50.key](/src/46_50.key), [51_60.key](/src/51_60.key)
 
+比特币：1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo
