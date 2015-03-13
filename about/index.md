@@ -7,9 +7,9 @@ title: "关于"
 
 联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org) / [@Dreamsome](http://weibo.com/onesuper)
 
-本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。
+本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。欢迎在你的 PPT、博客中使用这里的图片，但请记得署名～
 
-更多订阅方式： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket),
+订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket),
 
 
 <br>
@@ -35,14 +35,16 @@ title: "关于"
 
 <h4>这些画都是用什么工具画的？</h4>
 
-<p>Keynote。你可以下载它们的源文件，进行二次创作，构建自己心中的场景。我还在整理一个元素库，希望更多的人能够通过“拖拽图形”制作出有创造力的搞笑图片。比特币：1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo</p>
-
-<p><a href="/src/46_50.key">46-50</a>, <a href="/src/51_60.key">51-60</a></p>
-
+<p>Keynote。你可以下载它们的源文件，进行二次创作，构建自己心中的场景。我还在整理一个元素库，希望更多的人能够通过“拖拽图形”制作出有创造力的搞笑图片：<a href="/src/46_50.key">46-50</a>, <a href="/src/51_60.key">51-60</a></p>
 
 <h4>有没有公众号？</h4>
 
 <p>没有，但你可以尝试在手机浏览器打开 Dreamsome。</p>
+
+
+<h4>怎样外链这里的图片？</h4>
+
+<p>鼠标右击“复制图片网址”，就可以得到一个看起来有点丑图片的地址。</p>
 
 </div>
 
