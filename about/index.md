@@ -7,7 +7,7 @@ title: "关于"
 
 联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org) / [@Dreamsome](http://weibo.com/onesuper)
 
-本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。欢迎在你的 PPT、博客中使用这里的图片，但请记得署名～
+本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。
 
 订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket),
 
