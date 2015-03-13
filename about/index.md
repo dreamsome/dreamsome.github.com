@@ -9,7 +9,7 @@ title: "关于"
 
 本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。
 
-订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket),
+订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket)
 
 
 <br>
@@ -44,7 +44,7 @@ title: "关于"
 
 <h4>怎样外链这里的图片？</h4>
 
-<p>鼠标右击“复制图片网址”，就可以得到一个看起来有点丑图片的地址。</p>
+<p>鼠标右击“复制图片网址”，就可以得到一个看起来有点丑的地址。</p>
 
 </div>
 
