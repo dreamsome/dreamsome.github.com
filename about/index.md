@@ -39,8 +39,9 @@ title: "关于"
 
 <h4>有没有公众号？</h4>
 
-<p>没有，但你可以尝试在手机浏览器打开 Dreamsome。</p>
+<p>如下。你也可以尝试在手机浏览器打开 dreamsome.org</p>
 
+<div style="text-align:center;"><img src="/images/qrcode.jpg" width="129"/></div>
 
 <h4>怎样外链这里的图片？</h4>
 
