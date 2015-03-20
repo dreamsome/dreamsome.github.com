@@ -23,7 +23,7 @@ p { margin: 15px 0; line-height: 1.8; }
 ul.chaos li { list-style-type:none; line-height: 1.4;}
 
 .container {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -114,4 +114,4 @@ h4 {
     margin-left: -40px;
 }
 
-.faq { text-align: left; margin: 10px 60px;}
+.faq { text-align: left;}
