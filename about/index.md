@@ -5,7 +5,7 @@ title: "关于"
 
 <p><img src="/images/avatar.png" /> <br>程亦超</p>
 
-联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org) / [@Dreamsome](http://weibo.com/onesuper)
+联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org)  微博：[@Dreamsome](http://weibo.com/onesuper)
 
 本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。
 
