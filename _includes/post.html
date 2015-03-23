@@ -2,6 +2,29 @@
 <img src="{{site.img_url}}{{page.url}}.png" title="{{page.comment}}" />
 <br>
 <div id="comic-title"><h1>{{ page.title }}</h1></div>
+
+
+ <!-- JiaThis Button BEGIN -->
+<div id="share" class="jiathis_style" >
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_copy"></a>
+<a class="jiathis_button_fb"></a>
+<a class="jiathis_button_twitter"></a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+    title:"Dreamsome: {{ page.title }}",
+    url:"{{site.production_url}}{{ page.url }}"
+    summary:"{{page.comment}}",
+    shortUrl:false,
+    hideMore:true
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
 <ul class="navs">
  <li><a href="/1002/">|&lt;</a></li>
  <li><a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}" accesskey="p">&lt;</a></li>
@@ -12,6 +35,7 @@
  <div id="transcript">{{ page.content | xml_escape }}</div>
 <!-- <div><p>链接: {{site.production_url}}{{ page.url }}</p></div>
  -->
+
 </div>
 
 

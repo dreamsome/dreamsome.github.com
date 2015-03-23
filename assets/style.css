@@ -103,9 +103,18 @@ ul.navs a:hover, ul.navs a:focus {
 }
 
 #share {
-    height: 20px;
-    margin: 0 auto;
-    width: 144px;
+    height: 16px;
+    margin: 10px auto;
+    width: 134px;
+    border: 2px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    background: #eee;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 5px 0 gray;
+    -moz-box-shadow: 0 0 5px 0 gray;
+    -webkit-box-shadow: 0 0 5px 0 gray;
 }
 h4 {
     color: #111;
