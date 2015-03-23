@@ -14,8 +14,6 @@ title: "关于"
 <img src="/images/wechat.jpg" width="129"/>
 
 
-<br>
-
 
 <div class="faq">
 <h4>你是谁?</h4>
@@ -42,6 +40,10 @@ title: "关于"
 <h4>怎样外链这里的图片？</h4>
 
 <p>鼠标右击“复制图片网址”，就可以得到一个看起来有点丑的地址。</p>
+
+<h4>怎么支持你？</h4>
+
+<p>可以请我喝咖啡，或者在精神上支持我。</p>
 
 <div style="text-align:center;">
     <img src="/images/alipay.png" width="160" />
