@@ -3,13 +3,15 @@ layout: page
 title: "关于"
 ---
 
-<p><img src="/images/avatar.png" /> <br>程亦超</p>
+程亦超
 
-联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org)  微博：[@Dreamsome](http://weibo.com/onesuper)
+联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org), 微博：[@Dreamsome](http://weibo.com/onesuper)
 
 本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。
 
-订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket)
+订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket), 公众号
+
+<img src="/images/wechat.jpg" width="129"/>
 
 
 <br>
@@ -37,15 +39,14 @@ title: "关于"
 
 <p>Keynote。你可以下载它们的源文件，进行二次创作，构建自己心中的场景。我还在整理一个元素库，希望更多的人能够通过“拖拽图形”制作出有创造力的搞笑图片：<a href="/src/46_50.key">46-50</a>, <a href="/src/51_60.key">51-60</a>, <a href="/src/61_70.key">61-70</a></p>
 
-<h4>有没有公众号？</h4>
-
-<p>如下。你也可以尝试在手机浏览器打开 dreamsome.org</p>
-
-<div style="text-align:center;"><img src="/images/qrcode.jpg" width="129"/></div>
-
 <h4>怎样外链这里的图片？</h4>
 
 <p>鼠标右击“复制图片网址”，就可以得到一个看起来有点丑的地址。</p>
+
+<div style="text-align:center;">
+    <img src="/images/alipay.png" width="160" />
+</div>
+
 
 </div>
 
