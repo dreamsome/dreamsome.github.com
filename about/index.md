@@ -5,12 +5,13 @@ title: "关于"
 
 程亦超
 
-联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org), 微博：[@Dreamsome](http://weibo.com/onesuper)
+联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org), [微博](http://weibo.com/onesuper), [twitter](http://twitter.com/onesuper0)
 
 本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。
 
-订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket), 公众号
+订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket)
 
+微信公众号:<br>
 <img src="/images/wechat.jpg" width="129"/>
 
 
@@ -18,7 +19,7 @@ title: "关于"
 <div class="faq">
 <h4>你是谁?</h4>
 
-<p>工科生，喜欢尝试各种锻炼胆量的恶作剧，比如在图书馆中宿夜，破解汤姆熊的游戏设备，在电视节目中扮演问题少年……</p>
+<p>工科生，INTJ，喜欢尝试各种锻炼胆量的恶作剧，比如在图书馆中宿夜，破解汤姆熊的游戏设备，在电视节目中扮演问题少年……</p>
 
 <p>12 年时翻译过一本不正经的 <a href="http://www.amazon.cn/gp/product/B00FG1RW6I">C 语言的书</a>。</p>
 
@@ -41,9 +42,10 @@ title: "关于"
 
 <p>鼠标右击“复制图片网址”，就可以得到一个看起来有点丑的地址。</p>
 
-<p>如果你喜欢我的作品，可以请我喝一杯咖啡，或者在精神上支持我，鼓励我继续坚持下去～</p>
+<p>如果你喜欢我的作品，可以请我喝一杯咖啡，鼓励我继续坚持下去～</p>
 
 <div style="text-align:center;">
+    支付宝:<br>
     <img src="/images/alipay.png" width="160" />
 </div>
 
