@@ -11,10 +11,6 @@ title: "关于"
 
 订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket)
 
-微信公众号:<br>
-<img src="/images/wechat.jpg" width="129"/>
-
-
 
 <div class="faq">
 <h4>你是谁?</h4>
@@ -42,12 +38,9 @@ title: "关于"
 
 <p>鼠标右击“复制图片网址”，就可以得到一个看起来有点丑的地址。</p>
 
-<p>如果你喜欢我的作品，可以请我喝一杯咖啡，鼓励我继续坚持下去～</p>
+<h4>有微信公众号么？</h4>
 
-<div style="text-align:center;">
-    支付宝:<br>
-    <img src="/images/alipay.png" width="160" />
-</div>
+<img src="/images/wechat.jpg" width="129"/>
 
 
 </div>
