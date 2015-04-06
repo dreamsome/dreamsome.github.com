@@ -1,7 +1,12 @@
 <div id="comic">
 <img src="{{site.img_url}}{{page.url}}.png" title="{{page.comment}}" />
 <br>
-<div id="comic-title"><h1>{{ page.title }}</h1></div>
+<div id="comic-title"><h1>{{ page.title }}
+<span style="font-weight:normal;font-size:15px;">
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">+1</a>
+</span>
+</h1>
+</div>
 <ul class="navs">
  <li><a href="/1002/">|&lt;</a></li>
  <li><a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}" accesskey="p">&lt;</a></li>
@@ -9,17 +14,13 @@
  <li><a rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}" accesskey="n">&gt;</a></li>
  <li><a href="/">&gt;|</a></li>
 </ul>
- <div id="transcript">{{ page.content | xml_escape }}</div>
-<!-- <div><p>链接: {{site.production_url}}{{ page.url }}</p></div>
+
+<div id="transcript">{{ page.content | xml_escape }}</div>
+
+<!-- <div style="font-variant: small-caps;font-size:16px;">链接: {{site.production_url}}{{ page.url }}</div>
  -->
- <!-- JiaThis Button BEGIN -->
-<div id="share" class="jiathis_style" >
-<a class="jiathis_button_tsina"></a>
-<a class="jiathis_button_weixin"></a>
-<a class="jiathis_button_fb"></a>
-<a class="jiathis_button_twitter"></a>
-<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-</div>
+
+
 <script type="text/javascript" >
 var jiathis_config={
     url:"{{site.production_url}}{{ page.url }}",
@@ -29,7 +30,8 @@ var jiathis_config={
 }
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
+
+
 </div>
 
 
