@@ -36,5 +36,10 @@ title: "关于"
 <p><img src="/images/wechat.jpg" width="129"/></p>
 
 
+<h4>你最喜欢哪一条 XKCD？</h4>
+<p><a href="https://xkcd.com/705/">恪尽职守</a></p>
+
+
+
 </div>
 
