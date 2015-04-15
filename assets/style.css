@@ -5,7 +5,7 @@ body {
     margin: 8px;
     font: normal 14px/1.75 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-color: rgb(110, 138, 161);
+    background-color: #e2e2e2;
 }
 
 h1 {
@@ -29,13 +29,11 @@ ul.chaos li { list-style-type:none; line-height: 1.4;}
     text-align: center;
     padding: 15px 0px;
     text-align: center;
-    background: white;
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-    -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-    -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e2e2e2;
 }
 
 .container {
@@ -50,7 +48,7 @@ ul.chaos li { list-style-type:none; line-height: 1.4;}
 
 #comic-title h1 {
     color: black;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 22px;
     line-height: 25px;
     margin: 0;
@@ -62,9 +60,16 @@ ul.chaos li { list-style-type:none; line-height: 1.4;}
 
 #header li a {
     font-weight: bold;
-    color: #111;
     font-size: 18px;
-    margin: 0 3px;
+    padding: 5px 4px 5px 4px;
+    margin-right: 5px;
+    border-radius: 3px;
+    color: #111;
+}
+
+#header li a:hover {
+    background-color: #e2e2e2;
+    text-decoration: none;
 }
 
 #header li{
@@ -80,7 +85,7 @@ ul.chaos li { list-style-type:none; line-height: 1.4;}
 #top-right {
     float:left;
     width: 55%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #slogan {
@@ -114,6 +119,8 @@ ul.navs li{
     display: inline;
 }
 
+
+
 ul.navs li a {
     color: #FFF;
     border: solid 1.5px #071419;
@@ -125,21 +132,21 @@ ul.navs li a {
     margin: 0 3px;
     text-decoration: none;
     box-shadow: 0 0 5px 0 gray;
-    -moz-box-shadow: 0 0 5px 0 gray;
-    -webkit-box-shadow: 0 0 5px 0 gray;
 }
 
+
 ul.navs li a {
-    background-color: rgb(201, 107, 106);
+    background-color: #334;
     border-color: #333;
+    border-radius: 3px;
+    padding: 5px 8px 5px 8px;
 }
+
 
 ul.navs a:hover, ul.navs a:focus {
     background-color: #FFF;
     color: #333;
     box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
 }
 
 h4 {
