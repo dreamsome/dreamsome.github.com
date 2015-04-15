@@ -7,11 +7,6 @@ title: "关于"
 
 联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org), [微博](http://weibo.com/onesuper), [twitter](http://twitter.com/onesuper0)
 
-本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">知识共享"署名-非商业性使用"</a> 许可证。
-
-订阅Dreamsome： [Atom](/atom.xml), [RSS](/rss.xml), [Feedburner](http://feeds.feedburner.com/Dreamsome), [Pocket](https://ifttt.com/recipes/267320-dreamsome-pocket)
-
-
 <div class="faq">
 <h4>你是谁?</h4>
 <p>工科生，喜欢尝试各种锻炼胆量的恶作剧，比如在图书馆中宿夜，破解汤姆熊的游戏设备，在电视节目中扮演问题少年……</p>

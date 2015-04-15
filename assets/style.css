@@ -5,6 +5,7 @@ body {
     margin: 8px;
     font: normal 14px/1.75 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: rgb(110, 138, 161);
 }
 
 h1 {
@@ -22,9 +23,23 @@ p { margin: 15px 0; line-height: 1.8; }
 
 ul.chaos li { list-style-type:none; line-height: 1.4;}
 
+.main {
+    margin: 0px auto;
+    width: 780px;
+    text-align: center;
+    padding: 15px 0px;
+    text-align: center;
+    background: white;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
 .container {
-    width: 50%;
-    margin: 0 auto;
+    margin: 10px 40px;
 }
 
 #comic img {
@@ -35,21 +50,49 @@ ul.chaos li { list-style-type:none; line-height: 1.4;}
 
 #comic-title h1 {
     color: black;
-    font-weight: normal;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 22px;
     line-height: 25px;
     margin: 0;
 }
 
-#news {
+#header {
+    height: 130px;
+}
+
+#header li a {
+    font-weight: bold;
+    color: #111;
+    font-size: 18px;
+    margin: 0 3px;
+}
+
+#header li{
+    text-align: center;
+    display: inline;
+}
+
+#top-left {
+    float:left;
+    width: 45%;
+}
+
+#top-right {
+    float:left;
+    width: 55%;
+    margin-top: 30px;
+}
+
+#slogan {
     color: #111;
     font-size: 18px;
 }
 
+#news {
+
+}
+
 #footer {
-    margin: 20px 50px 0;
-    padding-top: 25px;
-    border-top: 1px dotted gray;
 }
 
 
@@ -60,7 +103,7 @@ ul.chaos li { list-style-type:none; line-height: 1.4;}
 }
 
 ul.navs {
-    margin: .75em 0;
+    margin: 5px 0;
     padding: 0;
     list-style-type: none;
     display: block;
@@ -73,24 +116,21 @@ ul.navs li{
 
 ul.navs li a {
     color: #FFF;
-    border: 2px solid #333;
+    border: solid 1.5px #071419;
     font-size: 16px;
     font-variant: small-caps;
     font-family: Lucida, sans-serif;
     font-weight: 600;
-    padding: .25em .75em;
-    margin: 0 4px;
+    padding: 2px 6px;
+    margin: 0 3px;
     text-decoration: none;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
     box-shadow: 0 0 5px 0 gray;
     -moz-box-shadow: 0 0 5px 0 gray;
     -webkit-box-shadow: 0 0 5px 0 gray;
 }
 
 ul.navs li a {
-    background-color: #6E6E6E;
+    background-color: rgb(201, 107, 106);
     border-color: #333;
 }
 
@@ -102,20 +142,6 @@ ul.navs a:hover, ul.navs a:focus {
     -webkit-box-shadow: none;
 }
 
-#share {
-    height: 16px;
-    margin: 10px auto;
-    width: 100px;
-    border: 2px solid #eee;
-    padding: 5px;
-    border-radius: 5px;
-    background: #eee;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    box-shadow: 0 0 5px 0 gray;
-    -moz-box-shadow: 0 0 5px 0 gray;
-    -webkit-box-shadow: 0 0 5px 0 gray;
-}
 h4 {
     color: #111;
     font-size: 18px;
