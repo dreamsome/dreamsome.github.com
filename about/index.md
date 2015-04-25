@@ -13,9 +13,8 @@ title: "关于"
 <p>喜欢尝试各种锻炼胆量的恶作剧，比如在图书馆中宿夜，破解汤姆熊的游戏设备，在电视节目中扮演问题少年。</p>
 
 <h4>你丫到底是谁?</h4>
-<p>工科生。</p>
-<p>2012 年翻译过一本不正经的 <a href="http://www.amazon.cn/gp/product/B00FG1RW6I">C 语言的书</a>。</p>
-<p> <a href="">大空翼很忙</a> 系列头像作者。</p>
+<p>工科生。2012 年翻译过一本不正经的 <a href="http://www.amazon.cn/gp/product/B00FG1RW6I">C 语言的书</a>。</p>
+<p> <a href="http://chengyichao.info/kun/">大空翼很忙</a> 系列头像作者。</p>
 
 <h4>Dreamsome 是什么意思？</h4>
 <p>“喜欢做梦的”，参照 troublesome darksome threesome...</p>
