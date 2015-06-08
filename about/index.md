@@ -5,9 +5,10 @@ title: "关于"
 
 程亦超
 
-联系方式：[yichao@dreamsome.org]( mailto: yichao@dreamsome.org), [微博](http://weibo.com/onesuper), [推特](http://twitter.com/onesuper0)
+联系方式：[邮箱]( mailto: yichao@dreamsome.org), [微博](http://weibo.com/onesuper), [推特](http://twitter.com/onesuper0)
 
-比特币：1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo
+比特币捐赠：1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo
+
 
 <div class="faq">
 <h4>你是谁?</h4>
@@ -33,7 +34,8 @@ title: "关于"
 <p><img src="/images/wechat.jpg" width="129"/></p>
 
 <h4>你最喜欢哪一条 XKCD？</h4>
-<p><a href="https://xkcd.com/705/">恪尽职守</a></p>
+<p><a href="https://xkcd.com/705/">恪尽职守</a></p>，
+<p><a href="https://xkcd.com/572/">白头偕老</a></p>
 
 
 
