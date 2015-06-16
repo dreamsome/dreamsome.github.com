@@ -18,7 +18,7 @@ title: "关于"
 
 <h4>你到底是谁？</h4>
 
-<p>程序员@alibaba。2012 年翻译过一本不正经的 <a href="http://www.amazon.cn/gp/product/B00FG1RW6I">C语言书</a>。画了<a href="http://chengyichao.info/kun/">大空翼头像</a>。</p>
+<p>程序员@alibaba。2012 年翻译过一本不正经的 <a href="http://www.amazon.cn/gp/product/B00FG1RW6I">C语言书</a>。做了很多<a href="http://chengyichao.info/kun/">大空翼的头像</a>。</p>
 
 
 <h4>Dreamsome 是什么意思？</h4>
