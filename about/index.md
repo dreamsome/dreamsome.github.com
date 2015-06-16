@@ -9,6 +9,8 @@ title: "关于"
 
 比特币：1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo
 
+[支付宝捐赠](http://blog.chengyichao.info/2015/05/21/donate/)
+
 
 <div class="faq">
 <h4>你是谁?</h4>
@@ -16,9 +18,8 @@ title: "关于"
 
 <h4>你到底是谁？</h4>
 
-<p>2012 年翻译过一本不正经的 <a href="http://www.amazon.cn/gp/product/B00FG1RW6I">C语言书</a>。</p>
+<p>程序员@alibaba。2012 年翻译过一本不正经的 <a href="http://www.amazon.cn/gp/product/B00FG1RW6I">C语言书</a>。画了<a href="http://chengyichao.info/kun/">大空翼头像</a>。</p>
 
-<p><a href="http://chengyichao.info/kun/">「大空翼很忙」</a>作者。</p>
 
 <h4>Dreamsome 是什么意思？</h4>
 <p>“喜欢做梦的”，参照 troublesome darksome threesome...</p>
