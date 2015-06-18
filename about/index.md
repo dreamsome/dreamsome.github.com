@@ -7,9 +7,7 @@ title: "关于"
 
 联系方式：[邮箱]( mailto: yichao@dreamsome.org), [微博](http://weibo.com/onesuper), [推特](http://twitter.com/onesuper0)
 
-比特币：1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo
-
-[支付宝捐赠](http://blog.chengyichao.info/2015/05/21/donate/)
+比特币：1NgJDZWDgqAmSscFxVumsdFfA5n6SPGQZo, [支付宝捐赠](http://blog.chengyichao.info/2015/05/21/donate/)
 
 
 <div class="faq">
