@@ -7,8 +7,5 @@ author:
 permalink: /:title 
 pygments: true
 paginate: 10
-markdown: rdiscount
-rdiscount:
-  extensions: [strict]
 production_url : http://dreamsome.org
 img_url: http://7vzp4h.com1.z0.glb.clouddn.com
