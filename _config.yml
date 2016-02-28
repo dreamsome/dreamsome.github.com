@@ -5,7 +5,6 @@ author:
   name: Cheng Yichao
   email: onesuperclark@gmail.com 
 permalink: /:title 
-markdown: kramdown
 paginate: 10
 production_url : http://dreamsome.org
 img_url: http://7vzp4h.com1.z0.glb.clouddn.com
